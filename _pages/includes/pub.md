@@ -1,5 +1,6 @@
 
-# 📝 Publications (<font size='2'> <sup>*</sup> indicates equal contribution;  <sup>#</sup> indicates corresponding authorship. </font>) 
+# 📝 Publications 
+(<font size='2'> <sup>*</sup> indicates equal contribution;  <sup>#</sup> indicates corresponding authorship. </font>) 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2022</div><img src='images/cvpr22.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
