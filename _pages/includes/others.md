@@ -4,8 +4,11 @@
 - *2016.09 - 2020.06*, Undergraduate, , Hainan Univeristy, Haikou.
 
 
-# 💬 Service
-Conference reviewer: ICLR 2022, AAAI 2022, CVPR 2022, ICML 2022, ECCV2022.
+# 💬 Services
+- Journal Reviewer: 
+ - IEEE Transactions on Neural Networks and Learning Systems
+ - Neural Networks
+- Conference reviewer: ICLR 2022, AAAI 2022, CVPR 2022, ICML 2022, ECCV2022.
 
 <!-- # 💬 Invited Talks
 - *2022.02*, Hosted MLNLP seminar \| [\[Video\]](https://www.bilibili.com/video/BV1wF411x7qh)
