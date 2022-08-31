@@ -18,3 +18,7 @@ redirect_from:
 {% include_relative includes/honers.md %}
 
 {% include_relative includes/others.md %}
+
+<footer>*Last updated on 08/31/2022.*  
+<a href="https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social">This guy makes a nice webpage</a> 
+</footer>
