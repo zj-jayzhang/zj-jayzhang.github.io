@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jay Zhang (张杰)"
-description              : "Second-year master student in Zhejiang University. Focusing on Efficient AI."
+description              : "Second-year master student at Zhejiang University. Focusing on Efficient AI."
 repository               : "zj-jayzhang/zj-jayzhang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,7 +27,7 @@ author:
   location         : "Hangzhou"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com.hk/?hl=zh-CN"
+  googlescholar    : "https://scholar.google.com.hk/citations?user=soDBSE8AAAAJ&hl=zh-CN"
   email            : "zj_zhangjie@zju.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
