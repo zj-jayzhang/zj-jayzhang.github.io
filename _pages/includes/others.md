@@ -18,10 +18,9 @@
 - *2020.10 - 2021.10*, [Tencent, Youtu Lab](https://open.youtu.qq.com/#/open/home), Research Intern, Shanghai.
 - *2019.11 - 2020.4*, [Alibaba, AliExpress](https://best.aliexpress.com/?src=google&albch=fbrnd&acnt=304-410-9721&albcp=2068664807&albag=79246744747&slnk=&trgt=aud-349278956780%3Akwd-14802285088&plac=&crea=593475686546&netw=g&device=c&mtctp=e&memo1=&albbt=Google_7_fbrnd&albagn=888888&isSmbActive=false&isSmbAutoCall=false&needSmbHouyi=false&gclid=CjwKCAjw6raYBhB7EiwABge5KmJEdkBNra9NIkEyXjv8DeW97nuCkApkC0hO6wXmUElokzEzwubdCBoCS1kQAvD_BwE&aff_fcid=49d56b453a774dd18d8a51ad2cf75f42-1661916386478-02753-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=49d56b453a774dd18d8a51ad2cf75f42-1661916386478-02753-UneMJZVf&terminal_id=830c48989058475bba173ccde706b3e7&afSmartRedirect=y), Software Engineer, Hangzhou.
 
-# 🏇🏄 More about me
+# 🎙 More about me
 - Whenever I am not doing research, I love to watch movies. It's really relaxing to watch a good movie quietly at the cinema.
-- It's fun for me to play billiards, drink, and travel with my friends.
-- 
+- It's fun for me to play billiards 🎱, drink 🍺, and travel 🏄 with my friends.
 
 
 
