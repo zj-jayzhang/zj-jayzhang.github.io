@@ -1,7 +1,7 @@
 
 # 📖 Educations
 - *2020.09 - 2023.03 (now)*, Master, Zhejiang University, Hangzhou.
-- *2016.09 - 2020.06*, Undergraduate, , Hainan University, Haikou.
+- *2016.09 - 2020.06*, Undergraduate, Hainan University, Haikou.
 
 
 # 💬 Services
