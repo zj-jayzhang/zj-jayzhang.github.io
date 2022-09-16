@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jay Zhang (张杰)"
+title                    : "Jie Zhang (张杰)"
 description              : "Master student at Zhejiang University. Focusing on AI security and efficiency."
 repository               : "zj-jayzhang/zj-jayzhang.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Jay Zhang (张杰)"
+  name             : "Jie Zhang (张杰)"
   avatar           : "images/zj.jpg"
   bio              : "Zhejiang University"
   location         : "Hangzhou"
