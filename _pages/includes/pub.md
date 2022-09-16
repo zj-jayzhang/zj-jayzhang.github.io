@@ -54,4 +54,4 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 - [GEAR: A Margin-based Federated Adversarial Training Approach](https://federated-learning.org/fl-aaai-2022/Papers/FL-AAAI-22_paper_34.pdf), Chen Chen, **Jie Zhang**<sup>*</sup>, Lingjuan Lyu. (Best Student Paper Award, AAAI 2022 FL workshop)
 - [Federated Mutual Learning](https://arxiv.org/abs/2006.16765), Tao Shen, **Jie Zhang**, Xinkang Jia, Fengda Zhang, Gang Huang, Pan Zhou, Kun Kuang, Fei Wu, Chao Wu.
 - [QEKD: Query-Efficient and Data-Free Knowledge Distillation from Black-box Models](https://arxiv.org/abs/2205.11158), **Jie Zhang**, Chen Chen, Jiahua Dong, Ruoxi Jia, Lingjuan Lyu.
-- [A Practical Data-Free Approach to One-shot Federated Learning with Heterogeneity](https://arxiv.org/abs/2112.12371), **Jie Zhang**, Chen Chen, Bo Li, Lingjuan Lyu, Shuang Wu, Jianghe Xu, Shouhong Ding, Chao Wu.
+<!-- - [A Practical Data-Free Approach to One-shot Federated Learning with Heterogeneity](https://arxiv.org/abs/2112.12371), **Jie Zhang**, Chen Chen, Bo Li, Lingjuan Lyu, Shuang Wu, Jianghe Xu, Shouhong Ding, Chao Wu. -->
