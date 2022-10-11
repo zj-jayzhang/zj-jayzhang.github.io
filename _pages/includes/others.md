@@ -21,14 +21,21 @@
 
 # 🎙 Miscellaneous
 
+### Travel
+I enjoy the time traveling with my families and friends. I am always excited about visiting new places and knowing different cultures.
+
+
+
 ### My cat
 My girlfriend and I have two lovely cats. They add a lot of fun to my life.
-![](../images/cat1.jpeg)
-![](../images/cat2.jpeg)
-![](../images/cat3.jpeg)
 
-- I love to watch movies. It's really relaxing to watch a good movie quietly at the cinema.
-- It's fun for me to play billiards 🎱, drink 🍺, and travel 🏄 with my friends.
+<img src="../../images/cat1.jpeg" width = "300" alt="图片名称" align=center />  <img src="../../images/cat4.jpeg" width = "300" alt="图片名称" align=center /> <img src="../../images/cat2.jpeg" width = "300" alt="图片名称" align=center /> 
+
+
+
+
+<!-- - I love to watch movies. It's really relaxing to watch a good movie quietly at the cinema.
+- It's fun for me to play billiards 🎱, drink 🍺, and travel 🏄 with my friends. -->
 
 
 
