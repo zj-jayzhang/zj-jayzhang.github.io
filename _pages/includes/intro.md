@@ -1,4 +1,4 @@
-# About Me
+# 🧐 About Me
 
 Hi! I am a master student in Software Engineering at Zhejiang University, advised by Prof. [Chao Wu](https://scholar.google.com.hk/citations?user=gpTPt58AAAAJ&hl=zh-CN). Before that, I received my Bachelor degree in the CS Department, Hainan University in July 2020.
 
