@@ -5,7 +5,7 @@ Hi! I am a master student in Software Engineering at Zhejiang University, advise
 **Research Interests**: I am mainly interested in data-centric AI or data-driven machine learning, including data security, data efficiency, and data-related applications. My research investigates how to elevate data-centric approaches to improving the performance of machine learning models. My long-term research goal is to mine the role of data in AI, and to democratize AI to serve a broader area and population. Currently, I am focusing on these research topics:
 - Data Efficiency: Data-Free Knowledge Distillation, Dataset Condensation
 - Data Security: Adversarial Examples, Model Inversion
-- Data-related Applications: Federated Learning, Imbalanced Learning, Self-supervised Learning
+- Data-related Applications: Federated Learning, Imbalanced Learning, Continual Learning
 
 
 
