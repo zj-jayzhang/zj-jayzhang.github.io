@@ -22,7 +22,7 @@ redirect_from:
 
 <footer> 
   
-  Last updated on 01/06/2023. This guy makes a nice <a href="https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social">   webpage.</a> 
+  Last updated on 02/11/2023. This guy makes a nice <a href="https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social">   webpage.</a> 
   
   
 </footer>
