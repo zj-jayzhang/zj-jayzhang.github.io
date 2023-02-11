@@ -8,8 +8,15 @@ Hi! I am a master student in Software Engineering at Zhejiang University, advise
 - Data-related Applications: Federated Learning, Imbalanced Learning, Continual Learning
 
 
+Previously, I interned at Sony AI for half a year, focusing on AI security and model compression. Before that, I also interned at Tencent Youtu Lab for a year, exploring federated learning and adversarial attacks.
 
-Previously, I was a research intern at Sony AI, advised by Dr. [Lingjuan Lyu](https://scholar.google.com.hk/citations?user=0Om30ZUAAAAJ&hl=zh-CN&oi=ao), exploring AI security and Federated Learning. Before that, I also worked closely with Dr. [Bo Li](https://scholar.google.com.hk/citations?user=NVzQ87sAAAAJ&hl=zh-CN&oi=sra) as a research intern at Youtu Lab, studying Knowledge Distillation and Adversarial Attacks.
+
+<!-- Previously, I was a research intern at Sony AI, exploring AI security and Federated Learning. Before that, I also worked as a research intern at Youtu Lab, studying Knowledge Distillation and Adversarial Attacks. -->
+
+<!-- closely with Dr. [Bo Li](https://scholar.google.com.hk/citations?user=NVzQ87sAAAAJ&hl=zh-CN&oi=sra) -->
+
+<!-- advised by Dr. [Lingjuan Lyu](https://scholar.google.com.hk/citations?user=0Om30ZUAAAAJ&hl=zh-CN&oi=ao), -->
+
 
 <!-- Other than my work,  -->
 
