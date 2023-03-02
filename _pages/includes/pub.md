@@ -28,7 +28,7 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/cvpr2023.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images/cvpr23.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Accelerating Dataset Distillation via Model Augmentation](https://arxiv.org/abs/2212.06152) \\
   Lei Zhang<sup>*</sup>, <b>Jie Zhang</b><sup>*</sup>, Bowen Lei, Subhabrata Mukherjee, Xiang Pan, Bo Zhao, Caiwen Ding, Yao Li, Dongkuan Xu.
