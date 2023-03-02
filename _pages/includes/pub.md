@@ -39,6 +39,15 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2022</div><img src='images/nips2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DENSE: Data-Free One-Shot Federated Learning](https://arxiv.org/abs/2112.12371) \\
+<b>Jie Zhang</b>, Chen Chen, Bo Li, Lingjuan Lyu, Shuang Wu, Shouhong Ding, Chunhua Shen, Chao Wu<sup>#</sup>. (NeurIPS 2022) <a href="[https://github.com/zj-jayzhang/](https://github.com/zj-jayzhang/DENSE)">code</a> 
+
+- The paper focuses on one-shot federated learning, i.e., the server can learn a model with a single communication round. The proposed FedSyn method has two stages: first, training a generator from the ensemble of models from clients; second, distilling the knowledge of the ensemble into a global model with synthetic data. We validate the efficacy of FedSyn by conducting extensive experiments on 6 different datasets with various non-IID settings generated from Dirichlet distributions. Results can well support that the proposed method consistently outperforms all the baselines.
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/aaai2023.png' alt="sym" width="100%"></div></div>
