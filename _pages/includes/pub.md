@@ -32,7 +32,7 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 <div class='paper-box-text' markdown="1">
 [Accelerating Dataset Distillation via Model Augmentation](https://arxiv.org/abs/2212.06152) \\
   Lei Zhang<sup>*</sup>, <b>Jie Zhang</b><sup>*</sup>, Bowen Lei, Subhabrata Mukherjee, Xiang Pan, Bo Zhao, Caiwen Ding, Yao Li, Dongkuan Xu.
-  (CVPR 2023) <a href="https://github.com/zj-jayzhang/">code</a> 
+  (CVPR 2023) <a href="https://github.com/zj-jayzhang/Acc-DD/">code</a> 
 
 - In this paper, we assume that training the synthetic data with diverse models leads to better generalization performance. Thus we propose two model augmentation techniques, i.e., using early-stage models and weight perturbation to learn an informative synthetic set with significantly reduced training cost. Extensive experiments demonstrate that our method achieves up to 20× speedup and comparable performance on par with state-of-the-art baseline methods.
 </div>
