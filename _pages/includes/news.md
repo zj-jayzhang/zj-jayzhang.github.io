@@ -1,7 +1,6 @@
 # 🔥 News
 
-<div style="overflow: scroll; height: 200px;">
-  
+<div style="overflow-y: scroll; height: 200px;">
 - *2023.07*: Two papers are accepted by ICCV 2023 (one first-authored)!
 - *2023.06*: Feel free to check out our new work, [Federated Generative Learning with Foundation Models](https://arxiv.org/abs/2306.16064).
 - *2023.03*: 🎉 I graduate from ZJU with First-Class Honours.
@@ -11,9 +10,7 @@
 - *2022.09*: One first-authored paper is accepted by NeurIPS 2022!
 - *2022.05*: One first-authored paper is accepted by ICML 2022!
 - *2022.03*: One first-authored paper is accepted by CVPR 2022!
-  
 </div>
-
 
   
 
