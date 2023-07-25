@@ -72,7 +72,7 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 - In this paper, we demonstrate that adversarial examples can also be utilized for good to improve the performance of imbalanced learning. We provide a new perspective on how to deal with imbalanced data: adjust the biased decision boundary by training with Guiding Adversarial Examples (GAEs). We empirically show, on several benchmark datasets, our proposed method is comparable to the state-of-the-art method. To our best knowledge, we are the first to deal with imbalanced learning with adversarial examples.
 </div>
 </div> -->
-- 	[Rethinking Data Distillation: Do Not Overlook Calibration](https://arxiv.org/abs/2307.12463), D. Zhu, B. Lei, **Jie Zhang**, Y. Fang, Y. Xie, R. Zhang, D. Xu. (**ICCV 2023**)
+- 	<div class="badge">ICCV 2023</div> [Rethinking Data Distillation: Do Not Overlook Calibration](https://arxiv.org/abs/2307.12463), D. Zhu, B. Lei, **Jie Zhang**, Y. Fang, Y. Xie, R. Zhang, D. Xu. (**ICCV 2023**)
 - 	[TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation](https://arxiv.org/abs/2303.06937), **Jie Zhang**, Chen Chen, Weiming Zhuang, Lingjuan Lv. (**ICCV 2023**)
 - [IDEAL: Query-Efficient Data-Free Learning from Black-Box Models](https://openreview.net/pdf?id=ConT6H7MWL), **Jie Zhang<sup>*</sup>**, Chen Chen<sup>*</sup>, Lingjuan Lyu. (**ICLR 2023**)
 - [GEAR: A Margin-based Federated Adversarial Training Approach](https://federated-learning.org/fl-aaai-2022/Papers/FL-AAAI-22_paper_34.pdf), Chen Chen<sup>*</sup>, **Jie Zhang**<sup>*</sup>, Lingjuan Lyu. (**Best Student Paper Award, AAAI 2022 FL workshop**)
