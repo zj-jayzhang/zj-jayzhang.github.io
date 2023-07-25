@@ -78,7 +78,7 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 </style>
 
 
-<div class="box"><span class="blue-text">这是一个文本框</span>
+<div class="box"><span class="blue-text">这是一个文本框</span></div>
 
 
 - `ICCV 2023` [Rethinking Data Distillation: Do Not Overlook Calibration](https://arxiv.org/abs/2307.12463), D. Zhu, B. Lei, **Jie Zhang**, Y. Fang, Y. Xie, R. Zhang, D. Xu. (**ICCV 2023**)
