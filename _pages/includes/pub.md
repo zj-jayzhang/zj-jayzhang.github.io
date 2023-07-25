@@ -1,5 +1,17 @@
 
 # 📝 Publications 
+
+<style>
+.box {
+  display: inline-block;
+  background-color: lightgray;
+}
+
+.blue-text {
+  color: blue;
+}
+</style>
+
 (<sup>*</sup> indicates equal contribution;  <sup>#</sup> indicates corresponding authorship.) 
 
 
@@ -60,28 +72,9 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 </div>
 </div>
 
-
-
-
-
-<style>
-.box {
-  display: inline-block;
-  background-color: lightgray;
-}
-
-.blue-text {
-  color: blue;
-}
-</style>
-
-
-
-
-
-- <div class="box"><span class="blue-text">ICCV 2023</span></div>  [Rethinking Data Distillation: Do Not Overlook Calibration](https://arxiv.org/abs/2307.12463), D. Zhu, B. Lei, **Jie Zhang**, Y. Fang, Y. Xie, R. Zhang, D. Xu. (**ICCV 2023**)
-- <div class="box"><span class="blue-text">ICCV 2023</span></div> 	[TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation](https://arxiv.org/abs/2303.06937), **Jie Zhang**, Chen Chen, Weiming Zhuang, Lingjuan Lv. (**ICCV 2023**)
-- <div class="box"><span class="blue-text">ICLR 2023</span></div> [IDEAL: Query-Efficient Data-Free Learning from Black-Box Models](https://openreview.net/pdf?id=ConT6H7MWL), **Jie Zhang<sup>*</sup>**, Chen Chen<sup>*</sup>, Lingjuan Lyu. (**ICLR 2023**)
-- <div class="box"><span class="blue-text">Best Student Paper Award, AAAI 2022 FL workshop</span></div> [GEAR: A Margin-based Federated Adversarial Training Approach](https://federated-learning.org/fl-aaai-2022/Papers/FL-AAAI-22_paper_34.pdf), Chen Chen<sup>*</sup>, **Jie Zhang**<sup>*</sup>, Lingjuan Lyu. (**Best Student Paper Award, AAAI 2022 FL workshop**)
+- <div class="box"><span class="blue-text">ICCV 2023</span></div>[Rethinking Data Distillation: Do Not Overlook Calibration](https://arxiv.org/abs/2307.12463), D. Zhu, B. Lei, **Jie Zhang**, Y. Fang, Y. Xie, R. Zhang, D. Xu. 
+- <div class="box"><span class="blue-text">ICCV 2023</span></div>[TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation](https://arxiv.org/abs/2303.06937), **Jie Zhang**, Chen Chen, Weiming Zhuang, Lingjuan Lv. 
+- <div class="box"><span class="blue-text">ICLR 2023</span></div> [IDEAL: Query-Efficient Data-Free Learning from Black-Box Models](https://openreview.net/pdf?id=ConT6H7MWL), **Jie Zhang<sup>*</sup>**, Chen Chen<sup>*</sup>, Lingjuan Lyu. 
+- <div class="box"><span class="blue-text">Best Student Paper Award, AAAI 2022 FL workshop</span></div> [GEAR: A Margin-based Federated Adversarial Training Approach](https://federated-learning.org/fl-aaai-2022/Papers/FL-AAAI-22_paper_34.pdf), Chen Chen<sup>*</sup>, **Jie Zhang**<sup>*</sup>, Lingjuan Lyu. 
 - [Federated Mutual Learning](https://arxiv.org/abs/2006.16765), Tao Shen, **Jie Zhang**, Xinkang Jia, Fengda Zhang, Gang Huang, Pan Zhou, Kun Kuang, Fei Wu, Chao Wu.
 
