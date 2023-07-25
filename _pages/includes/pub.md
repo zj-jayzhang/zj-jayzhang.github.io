@@ -67,8 +67,6 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 <style>
 .box {
   display: inline-block;
-  padding: 10px;
-  border: 1px solid gray;
   background-color: lightgray;
 }
 
