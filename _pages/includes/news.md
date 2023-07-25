@@ -14,7 +14,7 @@
     <li><strong>2023.03</strong>: 🎉 I graduate from ZJU with First-Class Honours.</li>
     <li><strong>2023.02</strong>: One first-authored paper is accepted by CVPR 2023 (<font color="red">Highlight; 2.5% acceptance rate </font>)!</li>
     <li><strong>2023.01</strong>: One first-authored paper is accepted by ICLR 2023!</li>
-    <li><strong>2022.11</strong>: One first-authored paper is accepted by AAAI 2023 (<font color="red">Oral </font>)!</li>
+    <li><strong>2022.11</strong>: One first-authored paper is accepted by AAAI 2023 (<font color="red">Oral</font>)!</li>
     <li><strong>2022.09</strong>: One first-authored paper is accepted by NeurIPS 2022!</li>
     <li><strong>2022.05</strong>: One first-authored paper is accepted by ICML 2022!</li>
     <li><strong>2022.03</strong>: One first-authored paper is accepted by CVPR 2022!</li>
