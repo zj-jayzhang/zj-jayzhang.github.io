@@ -63,15 +63,24 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 
 
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIP 2022</div><img src='images/icip22.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Adversarial Examples for Good: Adversarial Examples Guided Imbalanced Learning](https://arxiv.org/abs/2201.12356) \\
-**Jie Zhang<sup>*</sup>**, Lei Zhang<sup>*</sup>, Gang Li, Chao Wu<sup>#</sup>. (ICIP 2022) <a href="https://github.com/zj-jayzhang/Guided_Adversarial_Examples">code</a> 
+<style>
+.box {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: lightgray;
+}
 
-- In this paper, we demonstrate that adversarial examples can also be utilized for good to improve the performance of imbalanced learning. We provide a new perspective on how to deal with imbalanced data: adjust the biased decision boundary by training with Guiding Adversarial Examples (GAEs). We empirically show, on several benchmark datasets, our proposed method is comparable to the state-of-the-art method. To our best knowledge, we are the first to deal with imbalanced learning with adversarial examples.
-</div>
-</div> -->
+.blue-text {
+  color: blue;
+}
+</style>
+
+
+<div class="box"><span class="blue-text">这是一个文本框</span>
+
+
 - `ICCV 2023` [Rethinking Data Distillation: Do Not Overlook Calibration](https://arxiv.org/abs/2307.12463), D. Zhu, B. Lei, **Jie Zhang**, Y. Fang, Y. Xie, R. Zhang, D. Xu. (**ICCV 2023**)
 - 	[TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation](https://arxiv.org/abs/2303.06937), **Jie Zhang**, Chen Chen, Weiming Zhuang, Lingjuan Lv. (**ICCV 2023**)
 - [IDEAL: Query-Efficient Data-Free Learning from Black-Box Models](https://openreview.net/pdf?id=ConT6H7MWL), **Jie Zhang<sup>*</sup>**, Chen Chen<sup>*</sup>, Lingjuan Lyu. (**ICLR 2023**)
