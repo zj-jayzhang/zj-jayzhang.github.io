@@ -22,7 +22,7 @@ redirect_from:
 
 <footer> 
   <hr>
-  <p>Last updated on <span style="color: blue", id="date"></span></p>
+  <p>Last updated on <span style="color: blue" id="date"></span></p>
 
 <script>
   var formattedDate = ("0" + (today.getMonth() + 1)).slice(-2) + "-" + ("0" + today.getDate()).slice(-2) + "-" + today.getFullYear();
