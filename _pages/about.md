@@ -21,9 +21,16 @@ redirect_from:
 
 
 <footer> 
-  
-  Last updated on 2023-07-20. This guy makes a nice <a href="https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social">   webpage.</a> 
-  
-  
+  <hr>
+  <p>Last updated on <span id="date"></span></p>
+
+<script>
+    var today = new Date();
+    var year = today.getFullYear();
+    var month = today.getMonth() + 1;
+    var day = today.getDate();
+    var dateElement = document.getElementById("date");
+    dateElement.innerHTML = day + "-" + month +"-"+year;
+</script>  
 </footer>
 
