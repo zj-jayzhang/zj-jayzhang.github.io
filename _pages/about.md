@@ -22,7 +22,7 @@ redirect_from:
 
 <footer> 
   <hr>
-  <p>Last updated on <span id="date" style="color: blue;"></span>. This guy makes a nice <a href="https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social">   webpage.</a> </p>
+  <p>Last updated on <span id="date"></span>. This guy makes a nice <a href="https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social">   webpage.</a> </p>
 
 <script>
   var dateElement = document.getElementById("date");
