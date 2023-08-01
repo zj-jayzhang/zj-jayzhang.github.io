@@ -1,5 +1,5 @@
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 <style>
 .box {
@@ -31,7 +31,7 @@
 <div class='paper-box-text' markdown="1">
 
 [Federated Learning with Label Distribution Skew via Logits Calibration](https://proceedings.mlr.press/v162/zhang22p.html) \\
-<b>Jie Zhang</b>, Zhiqi Li, Bo Li, Jianghe Xu, Shuang Wu, Shouhong Ding, Chao Wu<sup>#</sup>. (ICML 2022) <a href="https://proceedings.mlr.press/v162/zhang22p.html">code</a>
+<b>Jie Zhang</b>, Zhiqi Li, Bo Li, Jianghe Xu, Shuang Wu, Shouhong Ding, Chao Wu<sup>#</sup>. (ICML 2022) 
 
 - In this work, we investigate the label distribution skew from a statistical view. We demonstrate both theoretically and empirically that previous methods based on softmax crossentropy are not suitable, which can result in local models heavily overfitting to minority classes and missing classes. Then, we propose FedLC (Federated learning via Logits
 Calibration), which calibrates the logits before softmax cross-entropy according to the probability of occurrence of each class.
@@ -66,7 +66,7 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 <div class='paper-box-text' markdown="1">
 
 [Delving into Adversarial Robustness of Federated Learning](https://arxiv.org/abs/2302.09479) \\
-<b>Jie Zhang<sup>*</sup></b>, Bo Li<sup>*</sup>, Chen Chen, Lingjuan Lyu, Shuang Wu, Shouhong Ding, Chao Wu<sup>#</sup>. (AAAI 2023 ) <a href="https://github.com/zj-jayzhang/">code</a> 
+<b>Jie Zhang<sup>*</sup></b>, Bo Li<sup>*</sup>, Chen Chen, Lingjuan Lyu, Shuang Wu, Shouhong Ding, Chao Wu<sup>#</sup>. (AAAI 2023)
 
 - To facilitate a better understanding of the adversarial vulnerability of the existing FL methods, we conduct comprehensive robustness evaluations on various attacks and adversarial training methods. Moreover, we reveal the negative impacts induced by directly adopting adversarial training in FL, which seriously hurts the test accuracy, especially in non-IID settings. In this work, we propose a novel algorithm called Decision Boundary based Federated Adversarial Training (DBFAT), which consists of two components (local re-weighting and global regularization) to improve both accuracy and robustness of FL systems.
 </div>
@@ -74,6 +74,6 @@ Calibration), which calibrates the logits before softmax cross-entropy according
 
 - <span style="color: blue; background-color: lightgray; "> ICCV 2023 </span>&nbsp;[Rethinking Data Distillation: Do Not Overlook Calibration](https://arxiv.org/abs/2307.12463), D. Zhu, B. Lei, **Jie Zhang**, Y. Fang, Y. Xie, R. Zhang, D. Xu. 
 - <span style="color: blue; background-color: lightgray; "> ICCV 2023 </span>&nbsp;[TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation](https://arxiv.org/abs/2303.06937), **Jie Zhang**, Chen Chen, Weiming Zhuang, Lingjuan Lv. 
-- <span style="color: blue; background-color: lightgray; "> ICLR 2023 </span>&nbsp;[IDEAL: Query-Efficient Data-Free Learning from Black-Box Models](https://openreview.net/pdf?id=ConT6H7MWL), **Jie Zhang<sup>*</sup>**, Chen Chen<sup>*</sup>, Lingjuan Lyu. 
+- <span style="color: blue; background-color: lightgray; "> ICLR 2023 </span>&nbsp;[IDEAL: Query-Efficient Data-Free Learning from Black-Box Models](https://openreview.net/pdf?id=ConT6H7MWL), **Jie Zhang<sup>*</sup>**, Chen Chen<sup>*</sup>, Lingjuan Lyu. <a href="https://github.com/SonyResearch/IDEAL">code</a> 
 - <span style="color: blue; background-color: lightgray; "> Best Student Paper Award, AAAI 2022 FL workshop </span>&nbsp;[GEAR: A Margin-based Federated Adversarial Training Approach](https://federated-learning.org/fl-aaai-2022/Papers/FL-AAAI-22_paper_34.pdf), Chen Chen<sup>*</sup>, **Jie Zhang**<sup>*</sup>, Lingjuan Lyu. 
 
