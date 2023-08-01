@@ -30,7 +30,9 @@ redirect_from:
     var month = today.getMonth() + 1;
     var day = today.getDate();
     var dateElement = document.getElementById("date");
-    dateElement.innerHTML = day + "-" + month +"-"+year;
+    // dateElement.innerHTML = day + "-" + month +"-"+year;
+  var formattedDate = ("0" + (today.getMonth() + 1)).slice(-2) + "-" + ("0" + today.getDate()).slice(-2) + "-" + today.getFullYear();
+  dateElement.innerHTML = formattedDate;
 </script>  
 </footer>
 
