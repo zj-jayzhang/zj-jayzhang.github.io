@@ -22,9 +22,10 @@ redirect_from:
 
 <footer> 
   <hr>
-  <p>Last updated on <span id="date" style="color: blue"></span></p>
+  <p>Last updated on <span id="date" style="color: blue;"></span>. This guy makes a nice <a href="https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social">   webpage.</a> </p>
 
 <script>
+  var dateElement = document.getElementById("date");
   var formattedDate = ("0" + (today.getMonth() + 1)).slice(-2) + "-" + ("0" + today.getDate()).slice(-2) + "-" + today.getFullYear();
   dateElement.innerHTML = formattedDate;
 </script>  
