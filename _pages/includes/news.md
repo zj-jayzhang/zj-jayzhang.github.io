@@ -10,7 +10,7 @@
 <div class="scrollable">
   <ul>
     <li><strong>2023.07</strong>: Two papers are accepted by ICCV 2023 (one first-authored)!</li>
-    <li><strong>2023.06</strong>: Feel free to check out our new work, <a href="https://arxiv.org/abs/2306.16064">Federated Generative Learning with Foundation Models</a>.</li>
+    <li><strong>2023.06</strong>: Please feel free to review our latest project, <a href="https://arxiv.org/abs/2306.16064">Federated Generative Learning with Foundation Models</a>.</li>
     <li><strong>2023.03</strong>: 🎉 I graduate from ZJU with First-Class Honours.</li>
     <li><strong>2023.02</strong>: One paper (co-first author) is accepted by CVPR 2023 (<font color="red">Highlight; 2.5% acceptance rate </font>)!</li>
     <li><strong>2023.01</strong>: One first-authored paper is accepted by ICLR 2023!</li>
