@@ -1,6 +1,6 @@
 # 🧐 About Me
 
-Hi there! I am an incoming PhD student in [Computer Science at the ETH Zurich](https://inf.ethz.ch/), under the supervision of Prof. [Florian Tramèr](https://floriantramer.com/).
+Hi there! I am a first-year PhD student in [Computer Science at the ETH Zurich](https://inf.ethz.ch/), under the supervision of Prof. [Florian Tramèr](https://floriantramer.com/).
 I completed my master's degree in [Software Engineering at Zhejiang University](http://www.cst.zju.edu.cn/cstenglish/main.htm) in March 2023, advised by Prof. [Chao Wu](https://scholar.google.com.hk/citations?user=gpTPt58AAAAJ&hl=zh-CN).
 Before that, I received my Bachelor's degree at Hainan University in July 2020.
 
