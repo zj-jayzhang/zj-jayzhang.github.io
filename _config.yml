@@ -24,11 +24,11 @@ author:
   name             : "Jie Zhang (张杰)"
   avatar           : "images/jay.jpeg"
   bio              : #"ETH Zurich"
-  location         : "Hangzhou"
+  location         : "Zurich, Switzerland"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com.hk/citations?user=soDBSE8AAAAJ&hl=zh-CN"
-  email            : "zj_zhangjie@zju.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=soDBSE8AAAAJ&hl=zh-CN"
+  email            : "jie.zhang@inf.ethz.ch"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : https://twitter.com/JayJiezhang
   vine             :
   weibo            :
   xing             :
