@@ -9,7 +9,7 @@
 
 <div class="scrollable">
   <ul>
-      <li><strong>2024.01</strong>: <a href="https://arxiv.org/abs/2310.10402">Real-Fake: Effective Training Data Synthesis Through Distribution Matching</a> is accepted by ICLR 2024</li>
+      <li><strong>2024.01</strong>: <a href="https://arxiv.org/abs/2310.10402">Real-Fake: Effective Training Data Synthesis Through Distribution Matching</a> is accepted by ICLR 2024.</li>
     <li><strong>2023.10</strong>: Please feel free to review the project I recently collaborated on, <a href="https://arxiv.org/abs/2310.10402">Real-Fake: Effective Training Data Synthesis Through Distribution Matching</a>.</li>
     <li><strong>2023.07</strong>: Two papers are accepted by ICCV 2023 (one first-authored)!</li>
     <li><strong>2023.06</strong>: Please feel free to review our recent project, <a href="https://arxiv.org/abs/2306.16064">Federated Generative Learning with Foundation Models</a>.</li>
