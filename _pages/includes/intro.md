@@ -12,5 +12,4 @@ Before that, I received my Bachelor's degree at Hainan University in July 2020.
 - Data Privacy: Membership Inference Attack
 - Data-related Applications: Federated Learning, Imbalanced Learning, Continual Learning
 
-🤔 For my PhD study, I am currently exploring the aspects of privacy and utility associated with synthetic data, particularly the use of generative models such as GANs or Diffusion models to obtain synthetic data.
-
+🤔 For my PhD study, I am interested in investigating the potential **security** and **privacy** risks in ML systems, both in their current state and as they evolve in the future. My research aims to uncover vulnerabilities and develop strategies to mitigate these risks, ultimately contributing to the development of more secure and privacy-preserving machine learning technologies.
