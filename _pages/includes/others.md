@@ -1,14 +1,15 @@
 
 # 📖 Educations
-- <sup>&#x1F393;</sup>  *2020.09 - 2023.03*, Master, Zhejiang University, Hangzhou.
-- <sup>&#x1F393;</sup>  *2016.09 - 2020.06*, Undergraduate, Hainan University, Haikou.
+- <sup>&#x1F393;</sup>  *2020.09 - 2023.03*, Master, Zhejiang University, China.
+- <sup>&#x1F393;</sup>  *2016.09 - 2020.06*, Undergraduate, Hainan University, China.
 
 
 # 💬 Services
 - Journal Reviewer: 
     - IEEE Transactions on Neural Networks and Learning Systems
     - Neural Networks
-- Conference Reviewer: ICLR 2022, AAAI 2022, CVPR 2022, ICML 2022, ECCV2022.
+    - IEEE Transactions on Pattern Analysis and Machine Intelligence
+- Conference Reviewer: ICLR, AAAI, CVPR, ICML, ECCV, ICCV, NeurIPS.
 
 
 # 💻 Internships
