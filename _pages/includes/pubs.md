@@ -13,7 +13,7 @@
 }
 </style>
 
-(<sup>*</sup> indicates equal contribution;  <sup>#</sup> indicates corresponding authorship.) 
+(<sup>*</sup> indicates equal contribution;  <sup>#</sup> indicates corresponding authorship. See full list of publications <a href="https://scholar.google.com/citations?user=soDBSE8AAAAJ">here</a>. ) 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/iclr24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
