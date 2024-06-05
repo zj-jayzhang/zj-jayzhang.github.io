@@ -22,7 +22,7 @@ redirect_from:
 
 <footer> 
   <hr>
-<p>Last updated on：April 29th. Template <a href="https://github.com/academicpages/academicpages.github.io">   webpage.</a></p>
+<p>Last updated June 5th. Template <a href="https://github.com/academicpages/academicpages.github.io">   webpage.</a></p>
 
 
 </footer>
