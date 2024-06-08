@@ -100,7 +100,7 @@ Jianhao Yuan, <b>Jie Zhang</b>, Shuyang Sun, Philip Torr, Bo Zhao<sup>#</sup>. (
 
 
 <details>
-<summary style="font-size: 1.4em; color: blue; background-color: #f0f8ff;"> More </summary>
+<summary style="font-size: 1.2em; color: blue; background-color: #f0f8ff;"> More </summary>
   <ul>
     <li><span style="color: blue; background-color: lightgray; "> ICCV 2023 </span>&nbsp;<a href="https://arxiv.org/abs/2303.06937">TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation</a>, <strong>Jie Zhang</strong>, Chen Chen, Weiming Zhuang, Lingjuan Lyu. <a href="https://github.com/zj-jayzhang/Federated-Class-Continual-Learning">code</a> </li>
     <li><span style="color: blue; background-color: lightgray; "> ICLR 2023 </span>&nbsp;<a href="https://openreview.net/pdf?id=ConT6H7MWL">IDEAL: Query-Efficient Data-Free Learning from Black-Box Models</a>, <strong>Jie Zhang<sup>*</sup></strong>, Chen Chen<sup>*</sup>, Lingjuan Lyu. <a href="https://github.com/SonyResearch/IDEAL">code</a> </li>
