@@ -22,17 +22,7 @@ Your highlighted text goes here.
 Preprint.
 </blockquote>
 <!-- Preprint -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/mis.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Evaluations of Machine Learning Privacy Defenses are Misleading](https://arxiv.org/abs/2404.17399) \\
-Michael Aerni<sup>*</sup>, <b>Jie Zhang</b><sup>*</sup>, Florian Tramèr.  \[[code](https://github.com/ethz-spylab/misleading-privacy-evals)\] \[[blogpost](https://spylab.ai/blog/misleading-privacy-evals/)\]
-
-
-- Empirical defenses for private machine learning forgo the provable guarantees of differential privacy in the hope of achieving high utility on real-world data. We find that evaluations of such methods can be highly <b>misleading</b>. In this work, we thus propose a new evaluation protocol that is reliable and efficient.
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -67,6 +57,18 @@ Edoardo Debenedetti, **Jie Zhang**, Mislav Balunović, Luca Beurer-Kellner, Marc
 <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
 Accepted.
 </blockquote>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCS 2024</div><img src='images/mis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Evaluations of Machine Learning Privacy Defenses are Misleading](https://arxiv.org/abs/2404.17399) \\
+Michael Aerni<sup>*</sup>, <b>Jie Zhang</b><sup>*</sup>, Florian Tramèr.  \[[code](https://github.com/ethz-spylab/misleading-privacy-evals)\] \[[blogpost](https://spylab.ai/blog/misleading-privacy-evals/)\]
+
+
+- Empirical defenses for private machine learning forgo the provable guarantees of differential privacy in the hope of achieving high utility on real-world data. We find that evaluations of such methods can be highly <b>misleading</b>. In this work, we thus propose a new evaluation protocol that is reliable and efficient.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/iclr24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
