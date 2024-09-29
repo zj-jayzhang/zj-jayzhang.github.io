@@ -40,6 +40,15 @@ thus tell us nothing about membership leakage of a foundation model’s training
 </div>
 </div>
 
+
+
+<!-- Accepted -->
+
+
+<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+Accepted.
+</blockquote>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/agentdojo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -51,12 +60,6 @@ Edoardo Debenedetti, **Jie Zhang**, Mislav Balunović, Luca Beurer-Kellner, Marc
 
 </div>
 </div>
-
-<!-- Accepted -->
-
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Accepted.
-</blockquote>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCS 2024</div><img src='images/mis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
