@@ -23,6 +23,18 @@ Preprint.
 </blockquote>
 <!-- Preprint -->
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/position.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data
+](https://arxiv.org/abs/2409.19798) \\
+<b>Jie Zhang</b>, Debeshee Das,  Gautam Kamath, Florian Tramèr. 
+
+- We argue that MIA is fundamentally flawed for proving training data use. To provide convincing evidence, the data creator must show the attack has a low false positive rate, meaning its output is unlikely under the null hypothesis (i.e., the model wasn't trained on the target data). However, it's impossible to sample from this null hypothesis because we don't know the exact training set and can't efficiently retrain large models. We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs.
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -32,9 +44,9 @@ Preprint.
 Debeshee Das, <b>Jie Zhang</b>, Florian Tramèr. 
 
 - Unfortunately, we find that **evaluations of MI attacks for foundation models are flawed**, because
-they sample members and non-members from different distributions. **For 8 published MI evaluation
+they sample members and non-members from different distributions. For 8 published MI evaluation
 datasets, we show that blind attacks—that distinguish the member and non-member distributions
-without looking at any trained model—outperform state-of-the-art MI attacks**. Existing evaluations
+without looking at any trained model—outperform state-of-the-art MI attacks. Existing evaluations
 thus tell us nothing about membership leakage of a foundation model’s training data.
 
 </div>
@@ -49,14 +61,14 @@ thus tell us nothing about membership leakage of a foundation model’s training
 Accepted.
 </blockquote>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/agentdojo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/agentdojo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents
 ](https://arxiv.org/abs/2406.13352) \\
 Edoardo Debenedetti, **Jie Zhang**, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr. \[[code](https://github.com/ethz-spylab/agentdojo)\]
 
-- To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is not a static test suite, but rather an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature. We find that AgentDojo poses a challenge for both attacks and defenses: state-of-the-art LLMs fail at many tasks (even in the absence of attacks), and existing prompt injection attacks break some security properties but not all.
+- To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature. AgentDojo poses a challenge for both attacks and defenses: state-of-the-art LLMs fail at many tasks (even in the absence of attacks), and existing prompt injection attacks break some security properties but not all.
 
 </div>
 </div>
@@ -73,7 +85,7 @@ Michael Aerni<sup>*</sup>, <b>Jie Zhang</b><sup>*</sup>, Florian Tramèr.  \[[co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/iclr24.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/iclr24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Real-Fake: Effective Training Data Synthesis Through Distribution Matching](https://arxiv.org/abs/2310.10402) \\
@@ -90,9 +102,9 @@ Jianhao Yuan, <b>Jie Zhang</b>, Shuyang Sun, Philip Torr, Bo Zhao<sup>#</sup>. (
 
 [DENSE: Data-Free One-Shot Federated Learning](https://arxiv.org/abs/2112.12371) \\
 <b>Jie Zhang<sup>*</sup></b>, Chen Chen<sup>*</sup>, Bo Li, Lingjuan Lyu, Shuang Wu, Shouhong Ding, Chunhua Shen, Chao Wu<sup>#</sup>. (NeurIPS 2022) \[[code](https://github.com/zj-jayzhang/DENSE )\]
-- The paper focuses on one-shot federated learning, i.e., the server can learn a model with a single communication round. The proposed FedSyn method has two stages: first, training a generator from the ensemble of models from clients; second, distilling the knowledge of the ensemble into a global model with synthetic data. We validate the efficacy of FedSyn by conducting extensive experiments on 6 different datasets with various non-IID settings generated from Dirichlet distributions. Results can well support that the proposed method consistently outperforms all the baselines.
+- The paper focuses on one-shot federated learning, i.e., the server can learn a model with a single communication round. The proposed FedSyn method has two stages: first, training a generator from the ensemble of models from clients; second, distilling the knowledge of the ensemble into a global model with synthetic data. We validate the efficacy of FedSyn by conducting extensive experiments on 6 different datasets with various non-IID settings generated from Dirichlet distributions.
 </div>
-</div> 
+</div>  -->
 
 <!-- Skip -->
 <!-- 

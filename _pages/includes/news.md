@@ -9,7 +9,7 @@
 
 <div class="scrollable">
   <ul>
-    <li><strong>2024.09</strong>: 🎉 <a href="https://arxiv.org/abs/2406.13352">AgentDojo</a> is accepted by NeurIPS 2024.  <a href="https://agentdojo.spylab.ai/">  Benchmark. </a>  </li>
+    <li><strong>2024.09</strong>: 🎉 <a href="https://arxiv.org/abs/2406.13352">AgentDojo</a> is accepted by NeurIPS 2024 (dataset and benchmark track).  <a href="https://agentdojo.spylab.ai/">  Benchmark. </a>  </li>
     <li><strong>2024.07</strong>: 🎉 <a href="https://arxiv.org/abs//2404.17399">Evaluations of Machine Learning Privacy Defenses are Misleading</a> is accepted by CCS 2024.  <a href="https://spylab.ai/blog/misleading-privacy-evals/">  Blogpost. </a>  </li>
     <!-- <li><strong>2024.07</strong>: <a href="https://arxiv.org/abs/2403.05016"> DiffClass </a> is accepted by ECCV 2024. </li> -->
     <!-- <li><strong>2024.04</strong>: Please feel free to review my first PhD project, <a href="https://arxiv.org/abs//2404.17399">Evaluations of Machine Learning Privacy Defenses are Misleading</a>.  <a href="https://spylab.ai/blog/misleading-privacy-evals/">  Blogpost </a>  </li> -->
