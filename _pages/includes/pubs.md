@@ -41,7 +41,7 @@ Preprint.
 
 [Blind Baselines Beat Membership Inference Attacks for Foundation Models
 ](https://arxiv.org/abs/2406.16201) \\
-Debeshee Das, <b>Jie Zhang</b>, Florian Tramèr. 
+Debeshee Das, <b>Jie Zhang</b>, Florian Tramèr. \[[code](https://github.com/ethz-spylab/Blind-MIA)\]
 
 - Unfortunately, we find that **evaluations of MI attacks for foundation models are flawed**, because
 they sample members and non-members from different distributions. For 8 published MI evaluation
