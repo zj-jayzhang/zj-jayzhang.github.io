@@ -1,10 +1,7 @@
 
 # 📝 Selected Publications 
-(<sup>*</sup> indicates equal contribution;  <sup>#</sup> indicates corresponding authorship. See full list of publications <a href="https://scholar.google.com/citations?user=soDBSE8AAAAJ">here</a>. ) 
+( <b>*</b> indicates equal contribution. Full list of  [<i class="fas fa-fw fa-graduation-cap"></i>publications](https://scholar.google.com/citations?hl=en&user=soDBSE8AAAAJ&view_op=list_works&sortby=pubdate))
 
-<!-- <div style="background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 5px; padding: 10px;">
-Your highlighted text goes here.
-</div> -->
 
 <style>
 .box {
@@ -17,6 +14,20 @@ Your highlighted text goes here.
 }
 </style>
 
+<style>
+  .equal {
+    font-size: 20px;
+  }
+</style>
+<style>
+  .me {
+    color: blue;  
+    font-weight: bold;  
+  }
+</style>
+
+
+
 
 <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
 Preprint.
@@ -28,7 +39,7 @@ Preprint.
 
 [Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data
 ](https://arxiv.org/abs/2409.19798) \\
-<b>Jie Zhang</b>, Debeshee Das,  Gautam Kamath, Florian Tramèr. 
+<span class="me">Jie Zhang</span>, Debeshee Das,  Gautam Kamath, Florian Tramèr. 
 
 - We argue that MIA is fundamentally flawed for proving training data use. To provide convincing evidence, the data creator must show the attack has a low false positive rate, meaning its output is unlikely under the null hypothesis (i.e., the model wasn't trained on the target data). However, it's impossible to sample from this null hypothesis because we don't know the exact training set and can't efficiently retrain large models. We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs.
 
@@ -41,7 +52,7 @@ Preprint.
 
 [Blind Baselines Beat Membership Inference Attacks for Foundation Models
 ](https://arxiv.org/abs/2406.16201) \\
-Debeshee Das, <b>Jie Zhang</b>, Florian Tramèr. \[[code](https://github.com/ethz-spylab/Blind-MIA)\]
+Debeshee Das, <span class="me">Jie Zhang</span>, Florian Tramèr. \[[code](https://github.com/ethz-spylab/Blind-MIA)\]
 
 - Unfortunately, we find that **evaluations of MI attacks for foundation models are flawed**, because
 they sample members and non-members from different distributions. For 8 published MI evaluation
@@ -66,7 +77,7 @@ Accepted.
 
 [AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents
 ](https://arxiv.org/abs/2406.13352) \\
-Edoardo Debenedetti, **Jie Zhang**, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr. \[[code](https://github.com/ethz-spylab/agentdojo)\]
+Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr. \[[code](https://github.com/ethz-spylab/agentdojo)\]
 
 - To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature. AgentDojo poses a challenge for both attacks and defenses: state-of-the-art LLMs fail at many tasks (even in the absence of attacks), and existing prompt injection attacks break some security properties but not all.
 
@@ -77,7 +88,7 @@ Edoardo Debenedetti, **Jie Zhang**, Mislav Balunović, Luca Beurer-Kellner, Marc
 <div class='paper-box-text' markdown="1">
 
 [Evaluations of Machine Learning Privacy Defenses are Misleading](https://arxiv.org/abs/2404.17399) \\
-Michael Aerni<sup>*</sup>, <b>Jie Zhang</b><sup>*</sup>, Florian Tramèr.  \[[code](https://github.com/ethz-spylab/misleading-privacy-evals)\] \[[blogpost](https://spylab.ai/blog/misleading-privacy-evals/)\]
+Michael Aerni<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Florian Tramèr.  \[[code](https://github.com/ethz-spylab/misleading-privacy-evals)\] \[[blogpost](https://spylab.ai/blog/misleading-privacy-evals/)\]
 
 
 - Empirical defenses for private machine learning forgo the provable guarantees of differential privacy in the hope of achieving high utility on real-world data. We find that evaluations of such methods can be highly <b>misleading</b>. In this work, we thus propose a new evaluation protocol that is reliable and efficient.

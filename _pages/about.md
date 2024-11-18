@@ -13,6 +13,8 @@ redirect_from:
 
 {% include_relative includes/news.md %}
 
+{% include_relative includes/blogs.md %}
+
 {% include_relative includes/pubs.md %}
 
 {% include_relative includes/honers.md %}
@@ -22,8 +24,7 @@ redirect_from:
 
 <footer> 
   <hr>
-<p>Last updated Octorber 8th, 2024. Template <a href="https://github.com/academicpages/academicpages.github.io">   webpage.</a></p>
-
+<p>Last updated: Novermber 18th, 2024. Template <a href="https://github.com/academicpages/academicpages.github.io">   webpage.</a></p>
 
 </footer>
 
