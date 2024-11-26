@@ -34,6 +34,17 @@ Preprint.
 </blockquote>
 <!-- Preprint -->
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/attack.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Gradient Masking All-at-Once: Ensemble Everything Everywhere Is Not Robust](https://arxiv.org/abs/2411.14834) \\
+<span class="me">Jie Zhang</span>, Kristina Nikolić, Nicholas Carlini, Florian Tramèr. 
+
+- We looked into "Ensemble Everything Everywhere", an adversarial examples defense that caused some excitement. Yet again, this serves as another example highlighting the importance of **rigorous evaluation**. 
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/position.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -41,7 +52,7 @@ Preprint.
 ](https://arxiv.org/abs/2409.19798) \\
 <span class="me">Jie Zhang</span>, Debeshee Das,  Gautam Kamath, Florian Tramèr. 
 
-- We argue that MIA is fundamentally flawed for proving training data use. To provide convincing evidence, the data creator must show the attack has a low false positive rate, meaning its output is unlikely under the null hypothesis (i.e., the model wasn't trained on the target data). However, it's impossible to sample from this null hypothesis because we don't know the exact training set and can't efficiently retrain large models. We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs.
+- We argue that MIA is fundamentally flawed for proving training data use.  We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs.
 
 </div>
 </div>
@@ -54,11 +65,9 @@ Preprint.
 ](https://arxiv.org/abs/2406.16201) \\
 Debeshee Das, <span class="me">Jie Zhang</span>, Florian Tramèr. \[[code](https://github.com/ethz-spylab/Blind-MIA)\]
 
-- Unfortunately, we find that **evaluations of MI attacks for foundation models are flawed**, because
-they sample members and non-members from different distributions. For 8 published MI evaluation
-datasets, we show that blind attacks—that distinguish the member and non-member distributions
-without looking at any trained model—outperform state-of-the-art MI attacks. Existing evaluations
-thus tell us nothing about membership leakage of a foundation model’s training data.
+- Unfortunately, we find that evaluations of MI attacks for foundation models are **flawed**, because
+they sample members and non-members from different distributions. We find 8 flawed MI evaluation
+datasets, existing evaluations thus tell us nothing about membership leakage of a foundation model’s training data.
 
 </div>
 </div>
@@ -75,11 +84,11 @@ Accepted.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/agentdojo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[AgentDojo: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents
+[AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents
 ](https://arxiv.org/abs/2406.13352) \\
 Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr. \[[code](https://github.com/ethz-spylab/agentdojo)\]
 
-- To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature. AgentDojo poses a challenge for both attacks and defenses: state-of-the-art LLMs fail at many tasks (even in the absence of attacks), and existing prompt injection attacks break some security properties but not all.
+- To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature. 
 
 </div>
 </div>
