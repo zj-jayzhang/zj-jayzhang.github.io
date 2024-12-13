@@ -38,24 +38,14 @@ Preprint.
 <div class='paper-box-text' markdown="1">
 
 [Gradient Masking All-at-Once: Ensemble Everything Everywhere Is Not Robust](https://arxiv.org/abs/2411.14834) \\
-<span class="me">Jie Zhang</span>, Kristina Nikolić, Nicholas Carlini, Florian Tramèr. 
+<span class="me">Jie Zhang</span>, Kristina Nikolić, Nicholas Carlini, Florian Tramèr. \[[code](https://github.com/zj-jayzhang/attack_ens)\]
 
 - We looked into "Ensemble Everything Everywhere", an adversarial examples defense that caused some excitement. Yet again, this serves as another example highlighting the importance of **rigorous evaluation**. 
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/position.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data
-](https://arxiv.org/abs/2409.19798) \\
-<span class="me">Jie Zhang</span>, Debeshee Das,  Gautam Kamath, Florian Tramèr. 
-
-- We argue that MIA is fundamentally flawed for proving training data use.  We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs.
-
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
@@ -80,6 +70,18 @@ datasets, existing evaluations thus tell us nothing about membership leakage of 
 <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
 Accepted.
 </blockquote>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/position.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Position: Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data
+](https://arxiv.org/abs/2409.19798) \\
+<span class="me">Jie Zhang</span>, Debeshee Das,  Gautam Kamath, Florian Tramèr. 
+
+- We argue that MIA is fundamentally flawed for proving training data use.  We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/agentdojo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
