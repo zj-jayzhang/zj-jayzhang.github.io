@@ -16,7 +16,7 @@
   </ul>
 
   <ul>
-    <li><a href=""> 😅 How to <strong>INCORRECTLY</strong> detect pretraining data in GPT? </a> (Coming soon) </li>
+    <li><a href="https://spylab.ai/blog/mia_position/"> 😅 How to prove ChatGPT trained on your data? </a>  </li>
   </ul>
 
 </div>

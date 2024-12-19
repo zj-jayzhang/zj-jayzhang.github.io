@@ -26,6 +26,13 @@
   }
 </style>
 
+<style>
+  .conf {
+    color: brown;  
+    font-weight: bold;  
+  }
+</style>
+
 
 
 
@@ -75,8 +82,10 @@ Accepted.
 <div class='paper-box-text' markdown="1">
 
 [Position: Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data
-](https://arxiv.org/abs/2409.19798) \\
-<span class="me">Jie Zhang</span>, Debeshee Das,  Gautam Kamath, Florian Tramèr. 
+](https://arxiv.org/abs/2409.19798)  \\
+<span class="conf">[IEEE SaTML 2025]</span>
+\\
+<span class="me">Jie Zhang</span>, Debeshee Das,  Gautam Kamath, Florian Tramèr.  \[[blog](https://spylab.ai/blog/mia_position/)\]
 
 - We argue that MIA is fundamentally flawed for proving training data use.  We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs.
 
@@ -88,6 +97,8 @@ Accepted.
 
 [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents
 ](https://arxiv.org/abs/2406.13352) \\
+<span class="conf">[NeurIPS 2024 Dataset $\&$ Benchmark Track]</span>
+\\
 Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr. \[[code](https://github.com/ethz-spylab/agentdojo)\]
 
 - To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature. 
@@ -99,7 +110,9 @@ Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca 
 <div class='paper-box-text' markdown="1">
 
 [Evaluations of Machine Learning Privacy Defenses are Misleading](https://arxiv.org/abs/2404.17399) \\
-Michael Aerni<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Florian Tramèr.  \[[code](https://github.com/ethz-spylab/misleading-privacy-evals)\] \[[blogpost](https://spylab.ai/blog/misleading-privacy-evals/)\]
+<span class="conf">[ACM CCS 2024]</span>
+\\
+Michael Aerni<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Florian Tramèr.  \[[code](https://github.com/ethz-spylab/misleading-privacy-evals)\] \[[blog](https://spylab.ai/blog/misleading-privacy-evals/)\]
 
 
 - Empirical defenses for private machine learning forgo the provable guarantees of differential privacy in the hope of achieving high utility on real-world data. We find that evaluations of such methods can be highly <b>misleading</b>. In this work, we thus propose a new evaluation protocol that is reliable and efficient.
