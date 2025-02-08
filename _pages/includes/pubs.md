@@ -1,6 +1,6 @@
 
 # 📝 Selected Publications 
-( <b>*</b> indicates equal contribution. Full list of  [<i class="fas fa-fw fa-graduation-cap"></i>publications](https://scholar.google.com/citations?hl=en&user=soDBSE8AAAAJ&view_op=list_works&sortby=pubdate))
+( <span class="equal">*</span> indicates equal contribution. Full list of  [<i class="fas fa-fw fa-graduation-cap"></i>publications](https://scholar.google.com/citations?hl=en&user=soDBSE8AAAAJ&view_op=list_works&sortby=pubdate))
 
 
 <style>
@@ -40,17 +40,28 @@
 Preprint.
 </blockquote>
 <!-- Preprint -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/advml.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/attack.png' alt="sym" width="100%"></div></div>
+[Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260) \\
+Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr
+
+- Despite a decade of research, progress in securing ML models against adversarial threats remains slow, hampered by non-rigorous evaluations even in simple cases. The shift to studying LLMs introduces problems that are less defined, harder to solve, and tougher to evaluate. Without addressing these challenges, we caution that another decade of adversarial ML research may yield minimal meaningful progress.
+
+</div>
+</div>
+
+
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/attack.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Gradient Masking All-at-Once: Ensemble Everything Everywhere Is Not Robust](https://arxiv.org/abs/2411.14834) \\
-<span class="me">Jie Zhang</span>, Kristina Nikolić, Nicholas Carlini, Florian Tramèr. \[[code](https://github.com/zj-jayzhang/attack_ens)\]
+<span class="me">Jie Zhang</span>, Christian Schlarmann, Kristina Nikolić, Nicholas Carlini, Francesco Croce, Matthias Hein, Florian Tramèr. \[[code](https://github.com/zj-jayzhang/attack_ens)\]
 
 - We looked into "Ensemble Everything Everywhere", an adversarial examples defense that caused some excitement. Yet again, this serves as another example highlighting the importance of **rigorous evaluation**. 
 
 </div>
-</div>
+</div> -->
 
 
 
