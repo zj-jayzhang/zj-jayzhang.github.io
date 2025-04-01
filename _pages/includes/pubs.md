@@ -36,20 +36,11 @@
 
 
 
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+<!-- <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
 Preprint.
-</blockquote>
+</blockquote> -->
 <!-- Preprint -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/advml.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260) \\
-Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr
-
-- Despite a decade of research, progress in securing ML models against adversarial threats remains slow, hampered by non-rigorous evaluations even in simple cases. The shift to studying LLMs introduces problems that are less defined, harder to solve, and tougher to evaluate. Without addressing these challenges, we caution that another decade of adversarial ML research may yield minimal meaningful progress.
-
-</div>
-</div>
 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/attack.png' alt="sym" width="100%"></div></div>
@@ -66,7 +57,25 @@ Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
+
+
+<!-- Accepted -->
+<!-- <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+Accepted.
+</blockquote> -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP DLSP workshop 2025</div><img src='images/advml.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260) \\
+Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr
+
+- Despite a decade of research, progress in securing ML models against adversarial threats remains slow, hampered by non-rigorous evaluations even in simple cases. The shift to studying LLMs introduces problems that are less defined, harder to solve, and tougher to evaluate. Without addressing these challenges, we caution that another decade of adversarial ML research may yield minimal meaningful progress.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP DLSP workshop 2025</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Blind Baselines Beat Membership Inference Attacks for Foundation Models
@@ -79,15 +88,6 @@ datasets, existing evaluations thus tell us nothing about membership leakage of 
 
 </div>
 </div>
-
-
-
-<!-- Accepted -->
-
-
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Accepted.
-</blockquote>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/position.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
