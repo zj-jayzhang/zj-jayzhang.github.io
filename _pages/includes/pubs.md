@@ -75,7 +75,7 @@ Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP DLSP workshop 2025</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP DLSP workshop 2025</div><img src='images/blind.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Blind Baselines Beat Membership Inference Attacks for Foundation Models
