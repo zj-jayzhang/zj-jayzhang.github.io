@@ -1,4 +1,3 @@
-
 # 📝 Selected Publications 
 ( <span class="equal">*</span> indicates equal contribution. Full list of  [<i class="fas fa-fw fa-graduation-cap"></i>publications](https://scholar.google.com/citations?hl=en&user=soDBSE8AAAAJ&view_op=list_works&sortby=pubdate))
 
@@ -33,6 +32,72 @@
   }
 </style>
 
+<style>
+  .resource-link {
+    color: #333;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 4px 2px 0;
+    border: 1px solid #e1e4e8;
+    font-size: 0.9em;
+    transition: all 0.2s ease;
+  }
+  
+  .github-link {
+    background-color: #f6f8fa;
+    border-color: #e1e4e8;
+  }
+  .github-link:hover {
+    background-color: #e1e4e8;
+  }
+  
+  .blog-link {
+    background-color: #f0f8ff;
+    border-color: #d1e8ff;
+  }
+  .blog-link:hover {
+    background-color: #d1e8ff;
+  }
+  
+  .poster-link {
+    background-color: #fff5f5;
+    border-color: #ffe0e0;
+  }
+  .poster-link:hover {
+    background-color: #ffe0e0;
+  }
+  
+  .paper-links {
+    margin-top: 4px;
+  }
+  
+  .paper-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .authors {
+    margin-bottom: 4px;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: white;
+    background-color: #4285f4;
+    margin-bottom: 8px;
+  }
+  
+  .paper-box {
+    margin-bottom: 20px;
+  }
+</style>
+
 
 
 
@@ -64,41 +129,48 @@ Preprint.
 Accepted.
 </blockquote> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP DLSP workshop 2025</div><img src='images/advml.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260) \\
-Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr
+<span class="paper-title">[Position: Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260)</span>
 
-- Despite a decade of research, progress in securing ML models against adversarial threats remains slow, hampered by non-rigorous evaluations even in simple cases. The shift to studying LLMs introduces problems that are less defined, harder to solve, and tougher to evaluate. Without addressing these challenges, we caution that another decade of adversarial ML research may yield minimal meaningful progress.
+<span class="authors">Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr</span>
+
+<span class="conf">[IEEE SP 2025, DLSP workshop]</span>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP DLSP workshop 2025</div><img src='images/blind.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Blind Baselines Beat Membership Inference Attacks for Foundation Models
-](https://arxiv.org/abs/2406.16201) \\
-Debeshee Das, <span class="me">Jie Zhang</span>, Florian Tramèr. \[[code](https://github.com/ethz-spylab/Blind-MIA)\]
+<span class="paper-title">[Blind Baselines Beat Membership Inference Attacks for Foundation Models](https://arxiv.org/abs/2406.16201)</span>
 
-- Unfortunately, we find that evaluations of MI attacks for foundation models are **flawed**, because
-they sample members and non-members from different distributions. We find 8 flawed MI evaluation
-datasets, existing evaluations thus tell us nothing about membership leakage of a foundation model’s training data.
+<span class="authors">Debeshee Das, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://github.com/ethz-spylab/Blind-MIA" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+</div>
+
+<span class="conf">[IEEE SP 2025, DLSP workshop]</span>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/satml.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/position.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Position: Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data
-](https://arxiv.org/abs/2409.19798)  \\
+<span class="paper-title">[Position: Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data](https://arxiv.org/abs/2409.19798)</span>
+
+<span class="authors"><span class="me">Jie Zhang</span>, Debeshee Das, Gautam Kamath, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://spylab.ai/blog/mia_position/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a>
+<a href="posters/satml.pdf" class="resource-link poster-link"><i class="fas fa-file-pdf"></i> poster</a>
+</div>
+
 <span class="conf">[IEEE SaTML 2025]</span>
-\\
-<span class="me">Jie Zhang</span>, Debeshee Das,  Gautam Kamath, Florian Tramèr.  \[[blog](https://spylab.ai/blog/mia_position/)\] \[[poster](posters/satml.pdf)\]
-
-- We argue that MIA is fundamentally flawed for proving training data use.  We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs.
+<!-- - We argue that MIA is fundamentally flawed for proving training data use.  We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs. -->
 
 </div>
 </div>
@@ -106,13 +178,17 @@ datasets, existing evaluations thus tell us nothing about membership leakage of 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/agentdojo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents
-](https://arxiv.org/abs/2406.13352) \\
-<span class="conf">[NeurIPS 2024 Dataset $\&$ Benchmark Track]</span>
-\\
-Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr. \[[code](https://github.com/ethz-spylab/agentdojo)\] \[[poster](posters/agentdojo.pdf)\]
+<span class="paper-title">[AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://arxiv.org/abs/2406.13352)</span>
 
-- To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature. 
+<span class="authors">Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://github.com/ethz-spylab/agentdojo" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+<a href="posters/agentdojo.pdf" class="resource-link poster-link"><i class="fas fa-file-pdf"></i> poster</a>
+</div>
+
+<span class="conf">[NeurIPS 2024 Dataset $\&$ Benchmark Track]</span>
+<!-- - To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature.  -->
 
 </div>
 </div>
@@ -120,16 +196,74 @@ Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CCS 2024</div><img src='images/mis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Evaluations of Machine Learning Privacy Defenses are Misleading](https://arxiv.org/abs/2404.17399) \\
+<span class="paper-title">[Evaluations of Machine Learning Privacy Defenses are Misleading](https://arxiv.org/abs/2404.17399)</span>
+
+<span class="authors">Michael Aerni<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://github.com/ethz-spylab/misleading-privacy-evals" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+<a href="https://spylab.ai/blog/misleading-privacy-evals/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a> 
+<a href="posters/ccs.pdf" class="resource-link poster-link"><i class="fas fa-file-pdf"></i> poster</a>
+</div>
+
 <span class="conf">[ACM CCS 2024]</span>
-\\
-Michael Aerni<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Florian Tramèr.  \[[code](https://github.com/ethz-spylab/misleading-privacy-evals)\] \[[blog](https://spylab.ai/blog/misleading-privacy-evals/)\] \[[poster](posters/ccs.pdf)\]
-
-
-- Empirical defenses for private machine learning forgo the provable guarantees of differential privacy in the hope of achieving high utility on real-world data. We find that evaluations of such methods can be highly <b>misleading</b>. In this work, we thus propose a new evaluation protocol that is reliable and efficient.
+<!-- - Empirical defenses for private machine learning forgo the provable guarantees of differential privacy in the hope of achieving high utility on real-world data. We find that evaluations of such methods can be highly <b>misleading</b>. In this work, we thus propose a new evaluation protocol that is reliable and efficient. -->
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Does Training with Synthetic Data Truly Protect Privacy?](https://openreview.net/forum?id=C8niXBHjfO)</span>
+
+<span class="authors">Yunpeng Zhao, <span class="me">Jie Zhang</span></span>
+
+<div class="paper-links">
+<a href="https://github.com/yunpeng-zhao/syndata-privacy" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+</div>
+
+<span class="conf">[ICLR 2025]</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">Preprint</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[The Jailbreak Tax: How Useful are Your Jailbreak Outputs?](#)</span>
+
+<span class="authors">Kristina Nikolić, Luze Sun, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://github.com/ethz-spylab/jailbreak-tax" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+<a href="https://spylab.ai/blog/jailbreak-tax/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a>
+</div>
+
+<span class="conf">[Preprint]</span>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/iclr24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
