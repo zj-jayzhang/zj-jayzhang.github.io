@@ -129,6 +129,39 @@ Preprint.
 Accepted.
 </blockquote> -->
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Does Training with Synthetic Data Truly Protect Privacy?](https://openreview.net/forum?id=C8niXBHjfO)</span>
+
+<span class="authors">Yunpeng Zhao, <span class="me">Jie Zhang</span></span>
+
+<div class="paper-links">
+<a href="https://github.com/yunpeng-zhao/syndata-privacy" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+</div>
+
+<span class="conf">[ICLR 2025]</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">Preprint</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[The Jailbreak Tax: How Useful are Your Jailbreak Outputs?](https://arxiv.org/abs/2504.10694)</span>
+
+<span class="authors">Kristina Nikolić, Luze Sun, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://github.com/ethz-spylab/jailbreak-tax" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+<a href="https://spylab.ai/blog/jailbreak-tax/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a>
+</div>
+
+<span class="conf">[Preprint]</span>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -212,38 +245,7 @@ Accepted.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-<span class="paper-title">[Does Training with Synthetic Data Truly Protect Privacy?](https://openreview.net/forum?id=C8niXBHjfO)</span>
-
-<span class="authors">Yunpeng Zhao, <span class="me">Jie Zhang</span></span>
-
-<div class="paper-links">
-<a href="https://github.com/yunpeng-zhao/syndata-privacy" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
-</div>
-
-<span class="conf">[ICLR 2025]</span>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">Preprint</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class="paper-title">[The Jailbreak Tax: How Useful are Your Jailbreak Outputs?](#)</span>
-
-<span class="authors">Kristina Nikolić, Luze Sun, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
-
-<div class="paper-links">
-<a href="https://github.com/ethz-spylab/jailbreak-tax" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
-<a href="https://spylab.ai/blog/jailbreak-tax/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a>
-</div>
-
-<span class="conf">[Preprint]</span>
-
-</div>
-</div>
 
 
 
