@@ -101,50 +101,9 @@
 
 
 
-<!-- <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
 Preprint.
-</blockquote> -->
-<!-- Preprint -->
-
-
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/attack.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Gradient Masking All-at-Once: Ensemble Everything Everywhere Is Not Robust](https://arxiv.org/abs/2411.14834) \\
-<span class="me">Jie Zhang</span>, Christian Schlarmann, Kristina Nikolić, Nicholas Carlini, Francesco Croce, Matthias Hein, Florian Tramèr. \[[code](https://github.com/zj-jayzhang/attack_ens)\]
-
-- We looked into "Ensemble Everything Everywhere", an adversarial examples defense that caused some excitement. Yet again, this serves as another example highlighting the importance of **rigorous evaluation**. 
-
-</div>
-</div> -->
-
-
-
-
-
-
-<!-- Accepted -->
-<!-- <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Accepted.
-</blockquote> -->
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class="paper-title">[Does Training with Synthetic Data Truly Protect Privacy?](https://openreview.net/forum?id=C8niXBHjfO)</span>
-
-<span class="authors">Yunpeng Zhao, <span class="me">Jie Zhang</span></span>
-
-<div class="paper-links">
-<a href="https://github.com/yunpeng-zhao/syndata-privacy" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
-</div>
-
-<span class="conf">[ICLR 2025]</span>
-
-</div>
-</div>
-
+</blockquote>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">Preprint</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -162,34 +121,16 @@ Accepted.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
-<div class='paper-box-text' markdown="1">
 
-<span class="paper-title">[Position: Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260)</span>
 
-<span class="authors">Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr</span>
 
-<span class="conf">[IEEE SP 2025, DLSP workshop]</span>
 
-</div>
-</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-<span class="paper-title">[Blind Baselines Beat Membership Inference Attacks for Foundation Models](https://arxiv.org/abs/2406.16201)</span>
-
-<span class="authors">Debeshee Das, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
-
-<div class="paper-links">
-<a href="https://github.com/ethz-spylab/Blind-MIA" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
-</div>
-
-<span class="conf">[IEEE SP 2025, DLSP workshop]</span>
-
-</div>
-</div>
-
+<!-- Accepted -->
+<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+Accepted.
+</blockquote>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/position.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -203,25 +144,7 @@ Accepted.
 </div>
 
 <span class="conf">[IEEE SaTML 2025]</span>
-<!-- - We argue that MIA is fundamentally flawed for proving training data use.  We propose two solutions: using data extraction attacks or membership inference on specially crafted canary data for reliable training data proofs. -->
 
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/agentdojo.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class="paper-title">[AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://arxiv.org/abs/2406.13352)</span>
-
-<span class="authors">Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr</span>
-
-<div class="paper-links">
-<a href="https://github.com/ethz-spylab/agentdojo" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
-<a href="posters/agentdojo.pdf" class="resource-link poster-link"><i class="fas fa-file-pdf"></i> poster</a>
-</div>
-
-<span class="conf">[NeurIPS 2024 Dataset $\&$ Benchmark Track]</span>
-<!-- - To measure the adversarial robustness of AI agents, we introduce **AgentDojo**, an evaluation framework for agents that execute tools over untrusted data. AgentDojo is an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks, 629 security test cases, and various attack and defense paradigms from the literature.  -->
 
 </div>
 </div>
@@ -240,10 +163,82 @@ Accepted.
 </div>
 
 <span class="conf">[ACM CCS 2024]</span>
-<!-- - Empirical defenses for private machine learning forgo the provable guarantees of differential privacy in the hope of achieving high utility on real-world data. We find that evaluations of such methods can be highly <b>misleading</b>. In this work, we thus propose a new evaluation protocol that is reliable and efficient. -->
+
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Position: Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260)</span>
+
+<span class="authors">Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr</span>
+
+<span class="conf">[IEEE SP 2025, DLSP workshop]</span>
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Does Training with Synthetic Data Truly Protect Privacy?](https://openreview.net/forum?id=C8niXBHjfO)</span>
+
+<span class="authors">Yunpeng Zhao, <span class="me">Jie Zhang</span></span>
+
+<div class="paper-links">
+<a href="https://github.com/yunpeng-zhao/syndata-privacy" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+</div>
+
+<span class="conf">[ICLR 2025]</span>
+
+</div>
+</div>
+
+
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div><img src='images/blind_mia.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Blind Baselines Beat Membership Inference Attacks for Foundation Models](https://arxiv.org/abs/2406.16201)</span>
+
+<span class="authors">Debeshee Das, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://github.com/ethz-spylab/Blind-MIA" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+<a href="posters/blind.pdf" class="resource-link poster-link"><i class="fas fa-file-pdf"></i> poster</a>
+</div>
+
+<span class="conf">[IEEE SP 2025, DLSP workshop]</span>
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/agentdojo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://arxiv.org/abs/2406.13352)</span>
+
+<span class="authors">Edoardo Debenedetti, <span class="me">Jie Zhang</span>, Mislav Balunović, Luca Beurer-Kellner, Marc Fischer, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://github.com/ethz-spylab/agentdojo" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+<a href="posters/agentdojo.pdf" class="resource-link poster-link"><i class="fas fa-file-pdf"></i> poster</a>
+</div>
+
+<span class="conf">[NeurIPS 2024 Dataset $\&$ Benchmark Track]</span>
+
+
+</div>
+</div>
+
 
 
 

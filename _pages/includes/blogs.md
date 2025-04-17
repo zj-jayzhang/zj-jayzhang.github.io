@@ -16,7 +16,10 @@
   </ul>
 
   <ul>
-    <li><a href="https://spylab.ai/blog/mia_position/"> 😅 How to prove ChatGPT trained on your data? </a>  </li>
+    <li><a href="https://spylab.ai/blog/mia_position/"> 😅 Membership Inference Attacks Can't Prove that a Model Was Trained On Your Data </a>  </li>
+  </ul>
+  <ul>
+    <li><a href="https://spylab.ai/blog/jailbreak-tax/"> ❓ The Jailbreak Tax: How Useful Are Your Jailbreak Outputs? </a>  </li>
   </ul>
 
 </div>
