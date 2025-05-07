@@ -101,10 +101,25 @@
 
 
 
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+<!-- <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
 Preprint.
-</blockquote>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">Preprint</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div>
+</blockquote> -->
+
+
+
+
+
+
+
+
+
+<!-- Accepted -->
+<!-- <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+Accepted.
+</blockquote> -->
+
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">ICML 2025</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div> -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class="paper-title">[The Jailbreak Tax: How Useful are Your Jailbreak Outputs?](https://arxiv.org/abs/2504.10694)</span>
@@ -116,21 +131,11 @@ Preprint.
 <a href="https://spylab.ai/blog/jailbreak-tax/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a>
 </div>
 
-<span class="conf">[Preprint]</span>
+<span class="conf">[ICML 2025, spotlight]</span>
 
 </div>
 </div>
 
-
-
-
-
-
-
-<!-- Accepted -->
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Accepted.
-</blockquote>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/position.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
