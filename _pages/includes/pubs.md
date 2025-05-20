@@ -101,11 +101,28 @@
 
 
 
-<!-- <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
 Preprint.
-</blockquote> -->
+</blockquote>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">preprint</div><img src='images/realmath.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div> -->
+<div class='paper-box-text' markdown="1">
 
 
+<span class="paper-title">[RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics](https://arxiv.org/abs/2505.12575)</span>
+
+<span class="authors"><span class="me">Jie Zhang</span>, Cezara Petrui, Kristina Nikolić, Florian Tramèr</span>
+
+<div class="paper-links">
+<a href="https://github.com/ethz-spylab/RealMath" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+<a href="https://huggingface.co/datasets/ethz-spylab/RealMath" class="resource-link blog-link"><i class="fas fa-table"></i> dataset</a>
+</div>
+
+<!-- <span class="conf">[ICML 2025, spotlight]</span> -->
+
+</div>
+</div>
 
 
 
@@ -114,9 +131,9 @@ Preprint.
 
 
 <!-- Accepted -->
-<!-- <blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
+<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
 Accepted.
-</blockquote> -->
+</blockquote>
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">ICML 2025</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div> -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/jailtax.png' alt="sym" width="100%"></div></div>
@@ -135,6 +152,8 @@ Accepted.
 
 </div>
 </div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/position.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
