@@ -132,9 +132,10 @@ Accepted.
 </blockquote>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge" style="background-color:rgb(66, 204, 59);">NeruIPS 2025</div><img src='images/realmath.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeruIPS 2025</div><img src='images/realmath.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <span class="paper-title">[RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics](https://arxiv.org/abs/2505.12575)</span>
+  
 <span class="authors"><span class="me">Jie Zhang</span>, Cezara Petrui, Kristina Nikolić, Florian Tramèr</span>
 <div class="paper-links">
 <a href="https://github.com/ethz-spylab/RealMath" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
