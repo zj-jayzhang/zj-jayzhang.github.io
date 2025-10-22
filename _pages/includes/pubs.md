@@ -108,6 +108,18 @@ Preprint.
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/black.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Black-box Optimization of LLM Outputs by Asking for Directions](https://arxiv.org/abs/2510.16794)</span>
+
+<span class="authors"><span class="me">Jie Zhang</span><span class="equal">*</span>, Meng Ding, Yang Liu, Jue Hong, Florian Tramèr</span>
+
+<!-- <span class="conf">[IEEE SP 2025, DLSP workshop]</span> -->
+<a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
