@@ -6,7 +6,9 @@
     "dev": "hugo server -D",
     "build": "hugo --minify"
   },
-  "dependencies": {
-    "tailwindcss": "^3.4.0"
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.35"
   }
 }

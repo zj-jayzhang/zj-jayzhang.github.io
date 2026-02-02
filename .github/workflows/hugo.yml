@@ -30,6 +30,14 @@ jobs:
           hugo-version: '0.155.2'
           extended: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
