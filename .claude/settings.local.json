@@ -14,7 +14,9 @@
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
       "Bash(git push:*)",
-      "WebFetch(domain:zj-jayzhang.github.io)"
+      "WebFetch(domain:zj-jayzhang.github.io)",
+      "Bash(curl:*)",
+      "Bash(gh workflow:*)"
     ]
   }
 }
