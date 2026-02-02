@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="container mt-12">
+  <div class="row">
+    <div class="col-12">
+      <h1>{{ .Title }}</h1>
+      {{ if .Content }}
+        <div class="mb-6">{{ .Content }}</div>
+      {{ end }}
+
+      <div class="event-list">
+        {{ range .Pages }}
+        <article class="mb-8 pb-8 border-b">
+          <h2 class="mb-2">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h2>
+
+          {{ if .Params.event }}
+          <p class="mb-2 text-gray-700">
+            <strong>{{ .Params.event }}</strong>
+          </p>
+          {{ end }}
+
+          {{ if .Date }}
+          <p class="mb-4 text-gray-500 text-sm">
+            {{ .Date.Format "January 2, 2006" }}
+          </p>
+          {{ end }}
+
+          {{ if .Summary }}
+          <p class="mb-4 text-gray-600">{{ .Summary }}</p>
+          {{ end }}
+
+          <a href="{{ .Permalink }}" class="text-blue-600 hover:text-blue-800">View details →</a>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

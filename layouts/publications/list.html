@@ -1,0 +1,70 @@
+{{ define "main" }}
+<div class="container mt-12">
+  <div class="row">
+    <div class="col-12">
+      <h1>{{ .Title }}</h1>
+      {{ if .Content }}
+        <div class="mb-6">{{ .Content }}</div>
+      {{ end }}
+
+      <div class="publications-list">
+        {{ range .Pages }}
+        <article class="mb-8 pb-8 border-b">
+          <h2 class="mb-2">
+            {{ if .Params.links }}
+              {{ range .Params.links }}
+                {{ if eq .type "source" }}
+                  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .Parent.Title }}</a>
+                  {{ break }}
+                {{ end }}
+              {{ end }}
+              {{ if not (range .Params.links) }}
+                {{ .Title }}
+              {{ end }}
+            {{ else }}
+              {{ .Title }}
+            {{ end }}
+          </h2>
+
+          {{ if .Params.authors }}
+          <p class="mb-2 text-gray-600">
+            {{ range $idx, $author := .Params.authors }}
+              {{ if gt $idx 0 }}, {{ end }}
+              {{ if eq $author "me" }}
+                <strong>Jie Zhang</strong>
+              {{ else }}
+                {{ $author }}
+              {{ end }}
+            {{ end }}
+          </p>
+          {{ end }}
+
+          {{ if .Params.publication }}
+          <p class="mb-2 text-gray-700">
+            <em>{{ .Params.publication }}</em>
+          </p>
+          {{ end }}
+
+          {{ if .Params.abstract }}
+          <p class="mb-4 text-gray-600">{{ .Params.abstract }}</p>
+          {{ end }}
+
+          {{ if .Params.links }}
+          <div class="mb-2">
+            {{ range .Params.links }}
+              <a href="{{ .url }}" class="btn btn-sm btn-outline mr-2" target="_blank" rel="noopener noreferrer">
+                {{ if eq .type "source" }}Source{{ end }}
+                {{ if eq .type "code" }}Code{{ end }}
+                {{ if eq .type "dataset" }}Dataset{{ end }}
+                {{ if eq .type "pdf" }}PDF{{ end }}
+              </a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
