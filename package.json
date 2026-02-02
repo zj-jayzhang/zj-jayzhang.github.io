@@ -1,0 +1,12 @@
+{
+  "name": "jie-zhang-homepage",
+  "version": "1.0.0",
+  "description": "Academic homepage for Jie Zhang",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --minify"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
