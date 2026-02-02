@@ -1,5 +1,5 @@
 ---
-title: News & Updates
+title: Talks & Events
 view: list
 header:
   caption: ""

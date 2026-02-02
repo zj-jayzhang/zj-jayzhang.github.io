@@ -1,6 +1,6 @@
 ---
-title: News & Updates
-view: list
+title: Publications
+view: card
 header:
   caption: ""
   image: ""
