@@ -20,90 +20,151 @@
 </style>
 <style>
   .me {
-    color: blue;  
-    font-weight: bold;  
+    color: #003d82;
+    font-weight: bold;
   }
 </style>
 
 <style>
   .conf {
-    color: brown;  
-    font-weight: bold;  
+    color: #003d82;
+    font-weight: 600;
+    font-size: 0.95em;
   }
 </style>
 
 <style>
   .resource-link {
     color: #333;
-    padding: 3px 8px;
-    border-radius: 4px;
+    padding: 6px 10px;
+    border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    margin: 2px 4px 2px 0;
-    border: 1px solid #e1e4e8;
+    margin: 4px 6px 4px 0;
+    border: none;
     font-size: 0.9em;
+    font-weight: 500;
     transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   }
-  
+
   .github-link {
     background-color: #f6f8fa;
-    border-color: #e1e4e8;
+    color: #24292e;
   }
   .github-link:hover {
     background-color: #e1e4e8;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
   }
-  
+
   .blog-link {
-    background-color: #f0f8ff;
-    border-color: #d1e8ff;
+    background-color: #e3f2fd;
+    color: #1976d2;
   }
   .blog-link:hover {
-    background-color: #d1e8ff;
+    background-color: #bbdefb;
+    box-shadow: 0 3px 6px rgba(25, 118, 210, 0.15);
   }
-  
+
   .poster-link {
-    background-color: #fff5f5;
-    border-color: #ffe0e0;
+    background-color: #fce4ec;
+    color: #c2185b;
   }
   .poster-link:hover {
-    background-color: #ffe0e0;
+    background-color: #f8bbd0;
+    box-shadow: 0 3px 6px rgba(194, 24, 91, 0.15);
   }
-  
+
   .paper-links {
-    margin-top: 4px;
-  }
-  
-  .paper-title {
-    font-weight: 500;
-    margin-bottom: 4px;
-  }
-  
-  .authors {
-    margin-bottom: 4px;
-  }
-  
-  .badge {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.85em;
-    font-weight: 600;
-    color: white;
-    background-color: #4285f4;
+    margin-top: 8px;
     margin-bottom: 8px;
   }
-  
+
+  .paper-title {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 1.02em;
+    color: #003d82;
+  }
+
+  .paper-title a {
+    color: #003d82;
+    text-decoration: none !important;
+  }
+
+  .paper-title a:hover {
+    color: #004fa3;
+  }
+
+  .authors {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(135deg, #003d82 0%, #004fa3 100%);
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 61, 130, 0.2);
+    letter-spacing: 0.3px;
+  }
+
   .paper-box {
     margin-bottom: 20px;
+    display: flex;
+    background: linear-gradient(135deg, #fafbfc 0%, #f5f7fa 100%);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 61, 130, 0.1);
+  }
+
+  .paper-box:hover {
+    box-shadow: 0 4px 12px rgba(0, 61, 130, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .paper-box-image {
+    flex-shrink: 0;
+    margin-right: 16px;
+  }
+
+  .paper-box-image img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .paper-box-text {
+    flex: 1;
+  }
+</style>
+
+<style>
+  .pub-section-header {
+    font-size: 1.1em;
+    color: white;
+    background: linear-gradient(135deg, #003d82 0%, #004fa3 100%);
+    padding: 12px 16px;
+    margin: 24px 0 16px 0;
+    border-radius: 6px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(0, 61, 130, 0.15);
   }
 </style>
 
 
 
 
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Preprint.
-</blockquote>
+<div class="pub-section-header">📄 Preprint</div>
 
 
 
@@ -139,9 +200,7 @@ Preprint.
 
 
 <!-- Accepted -->
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Accepted.
-</blockquote>
+<div class="pub-section-header">✅ Accepted</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeruIPS 2025</div><img src='images/realmath.png' alt="sym" width="100%"></div></div>
