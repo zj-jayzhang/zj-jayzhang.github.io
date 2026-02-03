@@ -52,7 +52,7 @@ Our lab has very nice [📚 Blogs](https://spylab.ai/blog/) about AI security an
     font-size: 15px;
     line-height: 1.6;
     color: #2c2c2c;
-    text-decoration: none;
+    text-decoration: none !important;
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -60,6 +60,7 @@ Our lab has very nice [📚 Blogs](https://spylab.ai/blog/) about AI security an
 
   .blog-link:hover {
     color: #B8860B;
+    text-decoration: none !important;
   }
 
   .blog-emoji {
