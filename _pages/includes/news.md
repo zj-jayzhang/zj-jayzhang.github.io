@@ -1,31 +1,107 @@
 # 🔥 News
 
 <style>
-  .scrollable {
-    max-height: 260px; 
-    overflow-y: scroll; 
+  .news-scrollable {
+    max-height: 360px;
+    overflow-y: scroll;
+    padding-right: 8px;
+  }
+
+  .news-scrollable::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .news-scrollable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  .news-scrollable::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+  .news-scrollable::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .news-item {
+    background: linear-gradient(135deg, #f0f4f8 0%, #e8f1f8 100%);
+    border-left: 4px solid #003d82;
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .news-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateX(4px);
+  }
+
+  .news-date {
+    display: inline-block;
+    background-color: #003d82;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  .news-content {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .news-content a {
+    color: #003d82;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid #003d82;
+    transition: all 0.2s ease;
+  }
+
+  .news-content a:hover {
+    color: #004fa3;
+    border-bottom-color: #004fa3;
   }
 </style>
 
-<div class="scrollable">
-  <ul>
-    <li><strong>2025.09</strong>: 🎉 <a href="https://arxiv.org/abs/2505.12575">RealMath</a> is accepted by NeurIPS 2025 </li>
-    <li><strong>2024.09</strong>: 🎉 <a href="https://arxiv.org/abs/2409.19798">Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data</a> is accepted by SaTML 2025 </li>
-    <li><strong>2024.09</strong>: 🎉 <a href="https://arxiv.org/abs/2406.13352">AgentDojo</a> is accepted by NeurIPS 2024 (dataset and benchmark track).  <a href="https://agentdojo.spylab.ai/">  Benchmark. </a>  </li>
-    <li><strong>2024.07</strong>: 🎉 <a href="https://arxiv.org/abs//2404.17399">Evaluations of Machine Learning Privacy Defenses are Misleading</a> is accepted by CCS 2024.  <a href="https://spylab.ai/blog/misleading-privacy-evals/">  Blogpost. </a>  </li>
-    <!-- <li><strong>2024.07</strong>: <a href="https://arxiv.org/abs/2403.05016"> DiffClass </a> is accepted by ECCV 2024. </li> -->
-    <!-- <li><strong>2024.04</strong>: Please feel free to review my first PhD project, <a href="https://arxiv.org/abs//2404.17399">Evaluations of Machine Learning Privacy Defenses are Misleading</a>.  <a href="https://spylab.ai/blog/misleading-privacy-evals/">  Blogpost </a>  </li> -->
-    <li><strong>2024.01</strong>: <a href="https://arxiv.org/abs/2310.10402">Real-Fake</a> is accepted by ICLR 2024.</li>
-    <!-- <li><strong>2023.10</strong>: Please feel free to review the project I recently collaborated on, <a href="https://arxiv.org/abs/2310.10402">Real-Fake: Effective Training Data Synthesis Through Distribution Matching</a>.</li> -->
-    <!-- <li><strong>2023.07</strong>: Two papers are accepted by ICCV 2023 (one first-authored)!</li> -->
-    <li><strong>2023.03</strong>: 🎉 I graduate from ZJU.</li>
-    <!-- <li><strong>2023.02</strong>: One paper (co-first author) is accepted by CVPR 2023 (<font color="red">Highlight; 2.5% acceptance rate </font>)!</li>
-    <li><strong>2023.01</strong>: One first-authored paper is accepted by ICLR 2023!</li>
-    <li><strong>2022.11</strong>: One first-authored paper is accepted by AAAI 2023 (<font color="red">Oral</font>)!</li>
-    <li><strong>2022.09</strong>: One first-authored paper is accepted by NeurIPS 2022!</li>
-    <li><strong>2022.05</strong>: One first-authored paper is accepted by ICML 2022!</li>
-    <li><strong>2022.03</strong>: One first-authored paper is accepted by CVPR 2022!</li> -->
-  </ul>
+<div class="news-scrollable">
+  <div class="news-item">
+    <span class="news-date">2025.09</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2505.12575">RealMath</a> is accepted by NeurIPS 2025</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2024.09</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2409.19798">Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data</a> is accepted by SaTML 2025</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2024.09</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2406.13352">AgentDojo</a> is accepted by NeurIPS 2024 (dataset and benchmark track). <a href="https://agentdojo.spylab.ai/">Benchmark</a></span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2024.07</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs//2404.17399">Evaluations of Machine Learning Privacy Defenses are Misleading</a> is accepted by CCS 2024. <a href="https://spylab.ai/blog/misleading-privacy-evals/">Blogpost</a></span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2024.01</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2310.10402">Real-Fake</a> is accepted by ICLR 2024</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2023.03</span>
+    <span class="news-content">🎉 I graduate from ZJU</span>
+  </div>
 </div>
 
 

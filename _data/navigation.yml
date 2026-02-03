@@ -12,17 +12,5 @@ main:
   - title: "Publications"
     url: "/#-selected-publications"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Services"
-    url: "/#-services"
-
-  - title: "Internships"
-    url: "/#-internships"
-
-  - title: "Miscellaneous"
-    url: "/#-miscellaneous"
+  - title: "More"
+    url: "/#-talks"

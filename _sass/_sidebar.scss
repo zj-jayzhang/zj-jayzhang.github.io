@@ -11,7 +11,11 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -26,7 +30,7 @@
 
 
   @include breakpoint($x-large) {
-    padding-right: 0;
+    padding-right: 1.5em;
   }
 
   h2, h3, h4, h5, h6 {
