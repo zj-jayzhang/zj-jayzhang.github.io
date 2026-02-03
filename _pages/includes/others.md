@@ -1,7 +1,4 @@
 
-# 📖 Educations
-- <sup>&#x1F393;</sup>  *2020.09 - 2023.03*, Master, Zhejiang University, China.
-- <sup>&#x1F393;</sup>  *2016.09 - 2020.06*, Undergraduate, Hainan University, China.
 
 
 # 💬 Services

@@ -28,7 +28,7 @@ redirect_from:
   <hr>
   
   
-<p>Last updated: April 1st, 2025. Template <a href="https://github.com/academicpages/academicpages.github.io">   webpage.</a></p>
+<p>Last updated: Feb 3, 2026. Template <a href="https://github.com/academicpages/academicpages.github.io">   webpage.</a></p>
 
 </footer>
 

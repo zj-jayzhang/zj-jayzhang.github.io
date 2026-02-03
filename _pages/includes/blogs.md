@@ -11,7 +11,7 @@ Our lab has very nice [📚 Blogs](https://spylab.ai/blog/) about AI security an
   }
 
   .blogs-scrollable::-webkit-scrollbar {
-    width: 6px;
+    width: 4px;
   }
 
   .blogs-scrollable::-webkit-scrollbar-track {
@@ -35,7 +35,7 @@ Our lab has very nice [📚 Blogs](https://spylab.ai/blog/) about AI security an
     border-right: 1px solid rgba(218, 165, 32, 0.15);
     border-bottom: 1px solid rgba(218, 165, 32, 0.15);
     border-radius: 8px;
-    padding: 16px 16px;
+    padding: 1px 1px;
     margin-bottom: 12px;
     transition: all 0.3s ease;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
@@ -49,12 +49,12 @@ Our lab has very nice [📚 Blogs](https://spylab.ai/blog/) about AI security an
   }
 
   .blog-link {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.6;
     color: #2c2c2c;
     text-decoration: none !important;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
   }
 
@@ -71,11 +71,10 @@ Our lab has very nice [📚 Blogs](https://spylab.ai/blog/) about AI security an
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1px;
   }
 
   .blog-text {
-    flex: 1;
+    flex: 0.8;
   }
 </style>
 
