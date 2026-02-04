@@ -478,7 +478,22 @@
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/iclr24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+<span class="paper-title">[Real-Fake: Effective Training Data Synthesis Through Distribution Matching](https://arxiv.org/abs/2310.10402)</span>
+
+<span class="authors">Jianhao Yuan, <span class="me">Jie Zhang</span>, Shuyang Sun, Philip Torr, Bo Zhao</span>
+
+<div class="paper-links">
+<a href="https://github.com/BAAI-DCAI/Training-Data-Synthesis" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+</div>
+
+<span class="conf">[ICLR 2024]</span>
+
+
+</div>
+</div>
 
 
 
