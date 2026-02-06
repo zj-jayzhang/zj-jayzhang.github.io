@@ -307,6 +307,18 @@
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/autoinj.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Learning to Inject: Automated Prompt Injection via Reinforcement Learning](https://arxiv.org/abs/2602.05746)</span>
+
+<span class="authors"> Xin Chen, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<a href="https://github.com/RPC2/AutoInject" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/black.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -315,7 +327,6 @@
 
 <span class="authors"><span class="me">Jie Zhang</span>, Meng Ding, Yang Liu, Jue Hong, Florian Tramèr</span>
 
-<!-- <span class="conf">[IEEE SP 2025, DLSP workshop]</span> -->
 <a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
 
 </div>
