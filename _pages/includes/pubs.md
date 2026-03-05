@@ -34,6 +34,16 @@
 </style>
 
 <style>
+  .award-highlight {
+    background-color: #ffeb3b;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: #333;
+  }
+</style>
+
+<style>
   .resource-link {
     color: #333;
     padding: 6px 10px;
@@ -329,6 +339,8 @@
 
 <a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
 
+<span class="conf">[ICLR Trustworthy AI workshop 2026, <span class="award-highlight">Oral</span>]</span>
+
 </div>
 </div>
 
@@ -351,6 +363,9 @@
 
 <!-- Accepted -->
 <div class="pub-section-header">✅ Accepted</div>
+
+
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/realmath.png' alt="sym" width="100%"></div></div>
@@ -379,11 +394,23 @@
 <a href="https://spylab.ai/blog/jailbreak-tax/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a>
 </div>
 
-<span class="conf">[ICML 2025, spotlight]</span>
+<span class="conf">[ICML 2025, <span class="award-highlight">Spotlight</span>]</span>
 
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">Membership Inference Attacks on Sequence Models</span>
+
+<span class="authors">Lorenzo Rossi, Michael Aerni, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<span class="conf">[IEEE SP 2025, DLSP workshop, <span class="award-highlight">Best Paper Award</span>]</span>
+
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/position.png' alt="sym" width="100%"></div></div>
