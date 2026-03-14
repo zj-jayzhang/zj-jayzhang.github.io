@@ -339,7 +339,7 @@
 
 <a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
 
-<span class="conf">[ICLR Trustworthy AI workshop 2026, <span class="award-highlight">Oral</span>]</span>
+<span class="conf">[ICLR Trustworthy AI workshop 2026]</span>
 
 </div>
 </div>
