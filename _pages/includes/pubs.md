@@ -339,23 +339,13 @@
 
 <a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
 
-<span class="conf">[ICLR Trustworthy AI workshop 2026]</span>
+<span class="conf">[ICLR Trustworthy AI workshop 2026, <span class="award-highlight">Spotlight Talk</span>]</span>
 
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
-<div class='paper-box-text' markdown="1">
 
-<span class="paper-title">[Position: Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260)</span>
-
-<span class="authors">Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr</span>
-
-<span class="conf">[IEEE SP 2025, DLSP workshop]</span>
-
-</div>
-</div>
 
 
 
@@ -365,7 +355,17 @@
 <div class="pub-section-header">✅ Accepted</div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div></div></div>
+<div class='paper-box-text' markdown="1">
 
+<span class="paper-title">[Position: Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260)</span>
+
+<span class="authors">Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr</span>
+
+<span class="conf">[ICML 2026, IEEE SP 2025, DLSP workshop]</span>
+
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/realmath.png' alt="sym" width="100%"></div></div>
