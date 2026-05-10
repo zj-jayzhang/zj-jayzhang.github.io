@@ -310,12 +310,28 @@
 
 <div class="pub-section-header">📚 Preprint</div>
 
-
 <div class='paper-box coming-soon-box'><div class='paper-box-image'><div><div class="badge">TBD <i class="fas fa-hourglass-end fa-spin"></i></div></div></div>
 <div class='paper-box-text' markdown="1">
 <span class="paper-title">🚀 Something is Coming Soon™ (Probably)  Status: <i class="fas fa-spinner fa-spin"></i> Thinking hard 🤔 ...]</span>
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/adv_vlm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Laundering AI Authority with Adversarial Examples](https://arxiv.org/abs/2605.04261)</span>
+
+<span class="authors"><span class="me">Jie Zhang</span>, Pura Peetathawatchai, Florian Tramèr, Avital Shafran</span>
+
+<!-- <a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a> -->
+
+<!-- <span class="conf">[ICLR Trustworthy AI workshop 2026, <span class="award-highlight">Spotlight Talk</span>]</span> -->
+
+</div>
+</div>
+
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/autoinj.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
