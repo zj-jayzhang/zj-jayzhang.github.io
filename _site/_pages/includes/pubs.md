@@ -20,92 +20,314 @@
 </style>
 <style>
   .me {
-    color: blue;  
-    font-weight: bold;  
+    color:rgb(1, 9, 245);
+    font-weight: bold;
   }
 </style>
 
 <style>
   .conf {
-    color: brown;  
-    font-weight: bold;  
+    color:rgb(146, 6, 45);
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+</style>
+
+<style>
+  .award-highlight {
+    background-color: #ffeb3b;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: #333;
   }
 </style>
 
 <style>
   .resource-link {
     color: #333;
-    padding: 3px 8px;
-    border-radius: 4px;
+    padding: 6px 10px;
+    border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    margin: 2px 4px 2px 0;
-    border: 1px solid #e1e4e8;
+    margin: 4px 6px 4px 0;
+    border: none;
     font-size: 0.9em;
+    font-weight: 500;
     transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   }
-  
+
   .github-link {
     background-color: #f6f8fa;
-    border-color: #e1e4e8;
+    color: #24292e;
   }
   .github-link:hover {
     background-color: #e1e4e8;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
   }
-  
+
   .blog-link {
-    background-color: #f0f8ff;
-    border-color: #d1e8ff;
+    background-color: #e3f2fd;
+    color: #1976d2;
   }
   .blog-link:hover {
-    background-color: #d1e8ff;
+    background-color: #bbdefb;
+    box-shadow: 0 3px 6px rgba(25, 118, 210, 0.15);
   }
-  
+
   .poster-link {
-    background-color: #fff5f5;
-    border-color: #ffe0e0;
+    background-color: #fce4ec;
+    color: #c2185b;
   }
   .poster-link:hover {
-    background-color: #ffe0e0;
+    background-color: #f8bbd0;
+    box-shadow: 0 3px 6px rgba(194, 24, 91, 0.15);
   }
-  
+
   .paper-links {
-    margin-top: 4px;
-  }
-  
-  .paper-title {
-    font-weight: 500;
-    margin-bottom: 4px;
-  }
-  
-  .authors {
-    margin-bottom: 4px;
-  }
-  
-  .badge {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.85em;
-    font-weight: 600;
-    color: white;
-    background-color: #4285f4;
+    margin-top: 8px;
     margin-bottom: 8px;
   }
-  
+
+  .paper-title {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 1.02em;
+    color: #003d82;
+  }
+
+  .paper-title a {
+    color:rgb(4, 23, 1);
+    text-decoration: none !important;
+  }
+
+  .paper-title a:hover {
+    color:rgb(29, 222, 45);
+  }
+
+  .authors {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(135deg, #003d82 0%, #004fa3 100%);
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 61, 130, 0.2);
+    letter-spacing: 0.3px;
+  }
+
   .paper-box {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    background: linear-gradient(135deg, #fafbfc 0%, #f5f7fa 100%);
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 61, 130, 0.1);
+  }
+
+  .paper-box:hover {
+    box-shadow: 0 4px 12px rgba(0, 61, 130, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .paper-box-image {
+    flex-shrink: 0;
+    margin-right: 16px;
+  }
+
+  .paper-box-image img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .paper-box-text {
+    flex: 1;
+  }
+</style>
+
+<style>
+  .pub-section-header {
+    font-size: 1.1em;
+    color: white;
+    background: linear-gradient(135deg, #003d82 0%, #004fa3 100%);
+    padding: 12px 16px;
+    margin: 24px 0 16px 0;
+    border-radius: 6px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(0, 61, 130, 0.15);
+  }
+
+  .coming-soon-box {
+    background: linear-gradient(135deg, #fffef5 0%, #fff8e6 50%, #fff9f0 100%) !important;
+    border: 3px dashed #ff7f00 !important;
+    box-shadow: 0 0 15px rgba(255, 127, 0, 0.3), 0 4px 12px rgba(255, 127, 0, 0.15) !important;
+    position: relative;
+    padding: 4px !important;
+  }
+
+  .coming-soon-box::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    background: #ff7f00;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(255, 127, 0, 0.3);
+  }
+
+  .coming-soon-box:hover {
+    box-shadow: 0 0 20px rgba(255, 127, 0, 0.4), 0 6px 16px rgba(255, 127, 0, 0.25) !important;
+    transform: translateY(-3px) !important;
+  }
+
+  .coming-soon-box .paper-title {
+    color: #ff7f00 !important;
+    font-size: 1.1em !important;
+  }
+
+  .coming-soon-box .paper-title a {
+    color: #ff7f00 !important;
+  }
+
+  .coming-soon-box .authors {
+    font-style: italic;
+    color: #999;
+  }
+
+  .coming-soon-box .conf {
+    color: #ff7f00 !important;
+    font-weight: 600 !important;
+  }
+
+  .coming-soon-box .paper-box-image {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-shrink: 1 !important;
+    margin-right: 16px !important;
+    padding-top: 8px !important;
+  }
+
+  .coming-soon-box .badge {
+    margin-bottom: 0 !important;
+    margin-top: -20px !important;
+    margin-left: 8px !important;
+    background: linear-gradient(135deg, #ff6b35 0%, #ff8c00 100%) !important;
+    box-shadow: 0 0 10px rgba(255, 107, 53, 0.6), 0 0 20px rgba(255, 140, 0, 0.4) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    font-weight: 800 !important;
+    letter-spacing: 0px !important;
+  }
+
+  details {
+    margin: 24px 0;
+  }
+
+  details > summary {
+    cursor: pointer;
+    padding: 16px 20px;
+    background: linear-gradient(135deg, #003d82 0%, #004fa3 100%);
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0, 61, 130, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  details > summary:hover {
+    box-shadow: 0 4px 12px rgba(0, 61, 130, 0.3);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #004fa3 0%, #005bb3 100%);
+  }
+
+  details > summary::before {
+    content: '▶';
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 0.8em;
+  }
+
+  details[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  details > ul {
+    background: rgba(0, 61, 130, 0.02);
+    border-left: 4px solid #003d82;
+    border-radius: 0 8px 8px 0;
+    padding: 20px 20px 20px 30px;
+    margin-top: 8px;
+    list-style: none;
+  }
+
+  details > ul > li {
+    margin-bottom: 12px;
+    padding: 8px 0;
+    line-height: 1.6;
+  }
+
+  details > ul > li:last-child {
+    margin-bottom: 0;
+  }
+
+  details > ul > li a {
+    color: #003d82;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  details > ul > li a:hover {
+    color: #004fa3;
+    text-decoration: underline;
   }
 </style>
 
 
 
 
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Preprint.
-</blockquote>
+<div class="pub-section-header">📚 Preprint</div>
 
 
+<div class='paper-box coming-soon-box'><div class='paper-box-image'><div><div class="badge">TBD <i class="fas fa-hourglass-end fa-spin"></i></div></div></div>
+<div class='paper-box-text' markdown="1">
+<span class="paper-title">🚀 Something is Coming Soon™ (Probably)  Status: <i class="fas fa-spinner fa-spin"></i> Thinking hard 🤔 ...]</span>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/autoinj.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Learning to Inject: Automated Prompt Injection via Reinforcement Learning](https://arxiv.org/abs/2602.05746)</span>
+
+<span class="authors"> Xin Chen, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<a href="https://github.com/RPC2/AutoInject" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/black.png' alt="sym" width="100%"></div></div>
@@ -113,10 +335,11 @@ Preprint.
 
 <span class="paper-title">[Black-box Optimization of LLM Outputs by Asking for Directions](https://arxiv.org/abs/2510.16794)</span>
 
-<span class="authors"><span class="me">Jie Zhang</span><span class="equal">*</span>, Meng Ding, Yang Liu, Jue Hong, Florian Tramèr</span>
+<span class="authors"><span class="me">Jie Zhang</span>, Meng Ding, Yang Liu, Jue Hong, Florian Tramèr</span>
 
-<!-- <span class="conf">[IEEE SP 2025, DLSP workshop]</span> -->
 <a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+
+<span class="conf">[ICLR Trustworthy AI workshop 2026, <span class="award-highlight">Oral</span>]</span>
 
 </div>
 </div>
@@ -139,12 +362,13 @@ Preprint.
 
 
 <!-- Accepted -->
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Accepted.
-</blockquote>
+<div class="pub-section-header">✅ Accepted</div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeruIPS 2025</div><img src='images/realmath.png' alt="sym" width="100%"></div></div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/realmath.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 <span class="paper-title">[RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics](https://arxiv.org/abs/2505.12575)</span>
   
@@ -153,7 +377,7 @@ Accepted.
 <a href="https://github.com/ethz-spylab/RealMath" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
 <a href="https://huggingface.co/datasets/ethz-spylab/RealMath" class="resource-link blog-link"><i class="fas fa-table"></i> dataset</a>
 </div>
-<span class="conf">[NeruIPS 2025, Dataset $\&$ Benchmark Track]</span>
+<span class="conf">[NeurIPS 2025, Dataset $\&$ Benchmark Track]</span>
 </div>
 </div>
 
@@ -170,11 +394,23 @@ Accepted.
 <a href="https://spylab.ai/blog/jailbreak-tax/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a>
 </div>
 
-<span class="conf">[ICML 2025, spotlight]</span>
+<span class="conf">[ICML 2025, <span class="award-highlight">Spotlight</span>]</span>
 
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">Membership Inference Attacks on Sequence Models</span>
+
+<span class="authors">Lorenzo Rossi, Michael Aerni, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<span class="conf">[IEEE SP 2025, DLSP workshop, <span class="award-highlight">Best Paper Award</span>]</span>
+
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SaTML 2025</div><img src='images/position.png' alt="sym" width="100%"></div></div>
@@ -280,7 +516,22 @@ Accepted.
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/iclr24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+<span class="paper-title">[Real-Fake: Effective Training Data Synthesis Through Distribution Matching](https://arxiv.org/abs/2310.10402)</span>
+
+<span class="authors">Jianhao Yuan, <span class="me">Jie Zhang</span>, Shuyang Sun, Philip Torr, Bo Zhao</span>
+
+<div class="paper-links">
+<a href="https://github.com/BAAI-DCAI/Training-Data-Synthesis" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+</div>
+
+<span class="conf">[ICLR 2024]</span>
+
+
+</div>
+</div>
 
 
 
@@ -364,16 +615,9 @@ Jianhao Yuan, <b>Jie Zhang</b>, Shuyang Sun, Philip Torr, Bo Zhao<sup>#</sup>. (
 
 
 
-<details>
-<summary style="font-size: 1.2em; color: blue; background-color: #f0f8ff;"> More </summary>
-  <ul>
-    <li><span style="color: blue; background-color: lightgray; "> ECCV 2024 </span>&nbsp;<a href="https://arxiv.org/abs/2403.05016">DiffClass: Diffusion-Based Class Incremental Learning</a>, Zichong Meng, <strong>Jie Zhang</strong>, Changdi Yang, Zheng Zhan, Pu Zhao, Yanzhi Wang.  </li>
-    <li><span style="color: blue; background-color: lightgray; "> ICCV 2023 </span>&nbsp;<a href="https://arxiv.org/abs/2303.06937">TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation</a>, <strong>Jie Zhang</strong>, Chen Chen, Weiming Zhuang, Lingjuan Lyu. <a href="https://github.com/zj-jayzhang/Federated-Class-Continual-Learning">code</a> </li>
-    <li><span style="color: blue; background-color: lightgray; "> ICLR 2023 </span>&nbsp;<a href="https://openreview.net/pdf?id=ConT6H7MWL">IDEAL: Query-Efficient Data-Free Learning from Black-Box Models</a>, <strong>Jie Zhang<sup>*</sup></strong>, Chen Chen<sup>*</sup>, Lingjuan Lyu. <a href="https://github.com/SonyResearch/IDEAL">code</a> </li>
-    <li><span style="color: blue; background-color: lightgray; "> AAAI 2023 </span>&nbsp;<a href="https://arxiv.org/abs/2302.09479">Delving into Adversarial Robustness of Federated Learning</a>, <b>Jie Zhang<sup>*</sup></b>, Bo Li<sup>*</sup>, Chen Chen, Lingjuan Lyu, Shuang Wu, Shouhong Ding, Chao Wu<sup>#</sup>. (<font color="red">Oral</font>)! </li>
-    <li><span style="color: blue; background-color: lightgray; "> ICCV 2023 </span>&nbsp;<a href="https://arxiv.org/abs/2307.12463">Rethinking Data Distillation: Do Not Overlook Calibration</a>, D. Zhu, B. Lei, <strong>Jie Zhang</strong>, Y. Fang, Y. Xie, R. Zhang, D. Xu. </li>
-    <li><span style="color: blue; background-color: lightgray; "> Best Student Paper Award, AAAI 2022 FL workshop </span>&nbsp;<a href="https://federated-learning.org/fl-aaai-2022/Papers/FL-AAAI-22_paper_34.pdf">GEAR: A Margin-based Federated Adversarial Training Approach</a>, Chen Chen<sup>*</sup>, <strong>Jie Zhang<sup>*</sup></strong>, Lingjuan Lyu.</li>
-  </ul>
-
-</details>
+<div style="margin-top: 40px; text-align: center;">
+  <a href="/more/" style="display: inline-block; padding: 14px 28px; background: linear-gradient(135deg, #003d82 0%, #004fa3 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 700; font-size: 1.1em; box-shadow: 0 2px 8px rgba(0, 61, 130, 0.2); transition: all 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 12px rgba(0, 61, 130, 0.3)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='0 2px 8px rgba(0, 61, 130, 0.2)'; this.style.transform='translateY(0)';">
+    📍 More: Talks, Honors & Awards, and More
+  </a>
+</div>
 -->

@@ -108,15 +108,7 @@
           
             <li class="masthead__menu-item"><a href="/#-selected-publications">Publications</a></li>
           
-            <li class="masthead__menu-item"><a href="/#-honors-and-awards">Honors and Awards</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#-educations">Educations</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#-services">Services</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#-internships">Internships</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#-miscellaneous">Miscellaneous</a></li>
+            <li class="masthead__menu-item"><a href="/#-talks">More</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -256,65 +248,248 @@
 
 <p>Hi there! I am a 3-year PhD student in <a href="https://inf.ethz.ch/">Computer Science at the ETH Zurich</a>, under the supervision of Prof. <a href="https://floriantramer.com/">Florian Tramèr</a>, and a member of the <a href="https://spylab.ai/">Secure and Private AI (SPY) Lab</a>.</p>
 
-<p>I completed my master’s degree in Software Engineering at <a href="http://www.cst.zju.edu.cn/cstenglish/main.htm">Zhejiang University</a> in March 2023, advised by Prof. <a href="https://scholar.google.com.hk/citations?user=gpTPt58AAAAJ&amp;hl=zh-CN">Chao Wu</a>.</p>
-
-<p>Before that, I received my Bachelor’s degree at Hainan University in July 2020.</p>
-
-<h3 id="research-interests"><strong>Research Interests</strong>:</h3>
-
-<p>🤔 For my PhD study,  my primary focus is on examining the potential <font color="red">security and privacy risks in ML systems</font>, both in their current state and as they evolve in the future. My research aims to uncover vulnerabilities and develop strategies to mitigate these risks, ultimately contributing to the development of more secure and privacy-preserving machine learning technologies.</p>
+<h3 id="research-interests"><strong>Research Interests</strong></h3>
+<div style="background-color: #f0f4f8; border-radius: 12px; padding: 20px; margin: 20px 0; color: #333; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);">
+  <div style="font-size: 17px; font-weight: 800; margin-bottom: 12px; color: #444;">🔍 I'm drawn to problems where...</div>
+  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+    <div style="background: rgba(5, 114, 94, 0.05); border-radius: 8px; padding: 10px 14px; font-size: 13px;">
+      <span style="margin-right: 6px;">🤔</span> Something could go wrong with LLMs
+    </div>
+    <div style="background: rgba(244, 72, 72, 0.05); border-radius: 8px; padding: 10px 14px; font-size: 13px;">
+      <span style="margin-right: 6px;">📊</span> We can perform rigorous evaluation
+    </div>
+    <div style="background: rgba(98, 174, 12, 0.05); border-radius: 8px; padding: 10px 14px; font-size: 13px;">
+      <span style="margin-right: 6px;">⚔️</span> We can provide a stronger attack
+    </div>
+    <div style="background: rgba(28, 18, 174, 0.05); border-radius: 8px; padding: 10px 14px; font-size: 13px;">
+      <span style="margin-right: 6px;">🎯</span> It's a realistic threat
+    </div>
+  </div>
+</div>
+<div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 10px; padding: 20px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+  <div style="display: grid; grid-template-columns: repeat(4, auto); gap: 10px; justify-content: start;">
+    <span style="background-color: #e3f2fd; color: #1976d2; padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 500; display: inline-block;">LLM Safety and Security</span>
+    <span style="background-color: #f3e5f5; color: #7b1fa2; padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 500; display: inline-block;">Prompt Injection</span>
+    <span style="background-color: #fff3e0; color: #e65100; padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 500; display: inline-block;">LLM Optimization</span>
+    <span style="background-color: #e8eaf6; color: rgb(92, 106, 232); padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 500; display: inline-block;">LLM Alignment</span>
+    <span style="background-color: #e0f2f1; color: #00796b; padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 500; display: inline-block;">Adversarial Example</span>
+    <span style="background-color: #fce4ec; color: #c2185b; padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 500; display: inline-block;">Privacy Evaluation</span>
+    <span style="background-color: #f1f8e9; color: #558b2f; padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 500; display: inline-block;">Membership Inference Attacks</span>
+    <span style="background-color: #ede7f6; color: #512da8; padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: 500; display: inline-block;">Synthetic Data</span>
+  </div>
+</div>
 
 <h1 id="-news">🔥 News</h1>
 
 <style>
-  .scrollable {
-    max-height: 260px; 
-    overflow-y: scroll; 
+  .news-scrollable {
+    max-height: 360px;
+    overflow-y: scroll;
+    padding-right: 8px;
+  }
+
+  .news-scrollable::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .news-scrollable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  .news-scrollable::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+
+  .news-scrollable::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .news-item {
+    background: linear-gradient(135deg, #f0f4f8 0%, #e8f1f8 100%);
+    border-left: 4px solid #003d82;
+    border-radius: 6px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .news-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateX(4px);
+  }
+
+  .news-date {
+    display: inline-block;
+    background-color: #003d82;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  .news-content {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .news-content a {
+    color: #003d82;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid #003d82;
+    transition: all 0.2s ease;
+  }
+
+  .news-content a:hover {
+    color: #004fa3;
+    border-bottom-color: #004fa3;
   }
 </style>
 
-<div class="scrollable">
-  <ul>
-    <li><strong>2024.09</strong>: 🎉 <a href="https://arxiv.org/abs/2409.19798">Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data</a> is accepted by SaTML 2025 </li>
-    <li><strong>2024.09</strong>: 🎉 <a href="https://arxiv.org/abs/2406.13352">AgentDojo</a> is accepted by NeurIPS 2024 (dataset and benchmark track).  <a href="https://agentdojo.spylab.ai/">  Benchmark. </a>  </li>
-    <li><strong>2024.07</strong>: 🎉 <a href="https://arxiv.org/abs//2404.17399">Evaluations of Machine Learning Privacy Defenses are Misleading</a> is accepted by CCS 2024.  <a href="https://spylab.ai/blog/misleading-privacy-evals/">  Blogpost. </a>  </li>
-    <!-- <li><strong>2024.07</strong>: <a href="https://arxiv.org/abs/2403.05016"> DiffClass </a> is accepted by ECCV 2024. </li> -->
-    <!-- <li><strong>2024.04</strong>: Please feel free to review my first PhD project, <a href="https://arxiv.org/abs//2404.17399">Evaluations of Machine Learning Privacy Defenses are Misleading</a>.  <a href="https://spylab.ai/blog/misleading-privacy-evals/">  Blogpost </a>  </li> -->
-    <li><strong>2024.01</strong>: <a href="https://arxiv.org/abs/2310.10402">Real-Fake</a> is accepted by ICLR 2024.</li>
-    <!-- <li><strong>2023.10</strong>: Please feel free to review the project I recently collaborated on, <a href="https://arxiv.org/abs/2310.10402">Real-Fake: Effective Training Data Synthesis Through Distribution Matching</a>.</li> -->
-    <!-- <li><strong>2023.07</strong>: Two papers are accepted by ICCV 2023 (one first-authored)!</li> -->
-    <li><strong>2023.03</strong>: 🎉 I graduate from ZJU.</li>
-    <!-- <li><strong>2023.02</strong>: One paper (co-first author) is accepted by CVPR 2023 (<font color="red">Highlight; 2.5% acceptance rate </font>)!</li>
-    <li><strong>2023.01</strong>: One first-authored paper is accepted by ICLR 2023!</li>
-    <li><strong>2022.11</strong>: One first-authored paper is accepted by AAAI 2023 (<font color="red">Oral</font>)!</li>
-    <li><strong>2022.09</strong>: One first-authored paper is accepted by NeurIPS 2022!</li>
-    <li><strong>2022.05</strong>: One first-authored paper is accepted by ICML 2022!</li>
-    <li><strong>2022.03</strong>: One first-authored paper is accepted by CVPR 2022!</li> -->
-  </ul>
+<div class="news-scrollable">
+  <div class="news-item">
+    <span class="news-date">2026.04</span>
+    <span class="news-content">🎉 Our position paper <a href="https://arxiv.org/abs/2502.02260">Adversarial ML for LLMs Is Not Making Any Progress </a> is accepted by ICML 2026</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2025.09</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2505.12575">RealMath</a> is accepted by NeurIPS 2025</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2024.09</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2409.19798">Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data</a> is accepted by SaTML 2025</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2024.09</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2406.13352">AgentDojo</a> is accepted by NeurIPS 2024 (dataset and benchmark track). <a href="https://agentdojo.spylab.ai/">Benchmark</a></span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2024.07</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs//2404.17399">Evaluations of Machine Learning Privacy Defenses are Misleading</a> is accepted by CCS 2024. <a href="https://spylab.ai/blog/misleading-privacy-evals/">Blogpost</a></span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2024.01</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2310.10402">Real-Fake</a> is accepted by ICLR 2024</span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">2023.03</span>
+    <span class="news-content">🎉 I graduate from ZJU</span>
+  </div>
 </div>
 
 <h1 id="-blogs">📒 Blogs</h1>
-<p>(Our lab has very nice <a href="https://spylab.ai/blog/">📚 Blogs</a> about AI security and privacy, highly recommended for reading!)</p>
+
+<p>Our lab has very nice <a href="https://spylab.ai/blog/">📚 Blogs</a> about AI security and privacy, highly recommended for reading!</p>
 
 <style>
-  .scrollable {
-    max-height: 260px; 
-    overflow-y: scroll; 
+  .blogs-scrollable {
+    max-height: 360px;
+    overflow-y: scroll;
+    padding-right: 8px;
+  }
+
+  .blogs-scrollable::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .blogs-scrollable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  .blogs-scrollable::-webkit-scrollbar-thumb {
+    background: #DAA520;
+    border-radius: 10px;
+  }
+
+  .blogs-scrollable::-webkit-scrollbar-thumb:hover {
+    background: #B8860B;
+  }
+
+  .blog-item {
+    background: linear-gradient(135deg, #fffaf4 0%, #fef6ed 100%);
+    border-left: 5px solid #DAA520;
+    border-top: 1px solid rgba(218, 165, 32, 0.3);
+    border-right: 1px solid rgba(218, 165, 32, 0.15);
+    border-bottom: 1px solid rgba(218, 165, 32, 0.15);
+    border-radius: 8px;
+    padding: 1px 1px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .blog-item:hover {
+    box-shadow: 0 8px 16px rgba(218, 165, 32, 0.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #fffcf7 0%, #fefaf2 100%);
+    border-left-color: #B8860B;
+  }
+
+  .blog-link {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #2c2c2c;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .blog-link:hover {
+    color: #B8860B;
+    text-decoration: none !important;
+  }
+
+  .blog-emoji {
+    font-size: 22px;
+    flex-shrink: 0;
+    min-width: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blog-text {
+    flex: 0.8;
   }
 </style>
 
-<div class="scrollable">
-  <ul>
-    <li><a href="https://spylab.ai/blog/misleading-privacy-evals/"> 😧 Misleading Evaluations of ML Privacy Defenses</a></li>
-  </ul>
+<div class="blogs-scrollable">
+  <div class="blog-item">
+    <a href="https://spylab.ai/blog/misleading-privacy-evals/" class="blog-link">
+      <span class="blog-emoji">😧</span>
+      <span class="blog-text">Misleading Evaluations of ML Privacy Defenses</span>
+    </a>
+  </div>
 
-  <ul>
-    <li><a href="https://spylab.ai/blog/mia_position/"> 😅 Membership Inference Attacks Can't Prove that a Model Was Trained On Your Data </a>  </li>
-  </ul>
-  <ul>
-    <li><a href="https://spylab.ai/blog/jailbreak-tax/"> ❓ The Jailbreak Tax: How Useful Are Your Jailbreak Outputs? </a>  </li>
-  </ul>
+  <div class="blog-item">
+    <a href="https://spylab.ai/blog/mia_position/" class="blog-link">
+      <span class="blog-emoji">😅</span>
+      <span class="blog-text">Membership Inference Attacks Can't Prove that a Model Was Trained On Your Data</span>
+    </a>
+  </div>
 
+  <div class="blog-item">
+    <a href="https://spylab.ai/blog/jailbreak-tax/" class="blog-link">
+      <span class="blog-emoji">❓</span>
+      <span class="blog-text">The Jailbreak Tax: How Useful Are Your Jailbreak Outputs?</span>
+    </a>
+  </div>
 </div>
 
 <h1 id="-selected-publications">📝 Selected Publications</h1>
@@ -339,97 +514,321 @@
 
 <style>
   .me {
-    color: blue;  
-    font-weight: bold;  
+    color:rgb(1, 9, 245);
+    font-weight: bold;
   }
 </style>
 
 <style>
   .conf {
-    color: brown;  
-    font-weight: bold;  
+    color:rgb(146, 6, 45);
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+</style>
+
+<style>
+  .award-highlight {
+    background-color: #ffeb3b;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: #333;
   }
 </style>
 
 <style>
   .resource-link {
     color: #333;
-    padding: 3px 8px;
-    border-radius: 4px;
+    padding: 6px 10px;
+    border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    margin: 2px 4px 2px 0;
-    border: 1px solid #e1e4e8;
+    margin: 4px 6px 4px 0;
+    border: none;
     font-size: 0.9em;
+    font-weight: 500;
     transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
   }
-  
+
   .github-link {
     background-color: #f6f8fa;
-    border-color: #e1e4e8;
+    color: #24292e;
   }
   .github-link:hover {
     background-color: #e1e4e8;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
   }
-  
+
   .blog-link {
-    background-color: #f0f8ff;
-    border-color: #d1e8ff;
+    background-color: #e3f2fd;
+    color: #1976d2;
   }
   .blog-link:hover {
-    background-color: #d1e8ff;
+    background-color: #bbdefb;
+    box-shadow: 0 3px 6px rgba(25, 118, 210, 0.15);
   }
-  
+
   .poster-link {
-    background-color: #fff5f5;
-    border-color: #ffe0e0;
+    background-color: #fce4ec;
+    color: #c2185b;
   }
   .poster-link:hover {
-    background-color: #ffe0e0;
+    background-color: #f8bbd0;
+    box-shadow: 0 3px 6px rgba(194, 24, 91, 0.15);
   }
-  
+
   .paper-links {
-    margin-top: 4px;
-  }
-  
-  .paper-title {
-    font-weight: 500;
-    margin-bottom: 4px;
-  }
-  
-  .authors {
-    margin-bottom: 4px;
-  }
-  
-  .badge {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.85em;
-    font-weight: 600;
-    color: white;
-    background-color: #4285f4;
+    margin-top: 8px;
     margin-bottom: 8px;
   }
-  
+
+  .paper-title {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 1.02em;
+    color: #003d82;
+  }
+
+  .paper-title a {
+    color:rgb(4, 23, 1);
+    text-decoration: none !important;
+  }
+
+  .paper-title a:hover {
+    color:rgb(29, 222, 45);
+  }
+
+  .authors {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(135deg, #003d82 0%, #004fa3 100%);
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 61, 130, 0.2);
+    letter-spacing: 0.3px;
+  }
+
   .paper-box {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    background: linear-gradient(135deg, #fafbfc 0%, #f5f7fa 100%);
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 61, 130, 0.1);
+  }
+
+  .paper-box:hover {
+    box-shadow: 0 4px 12px rgba(0, 61, 130, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .paper-box-image {
+    flex-shrink: 0;
+    margin-right: 16px;
+  }
+
+  .paper-box-image img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .paper-box-text {
+    flex: 1;
   }
 </style>
 
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Preprint.
-</blockquote>
+<style>
+  .pub-section-header {
+    font-size: 1.1em;
+    color: white;
+    background: linear-gradient(135deg, #003d82 0%, #004fa3 100%);
+    padding: 12px 16px;
+    margin: 24px 0 16px 0;
+    border-radius: 6px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(0, 61, 130, 0.15);
+  }
+
+  .coming-soon-box {
+    background: linear-gradient(135deg, #fffef5 0%, #fff8e6 50%, #fff9f0 100%) !important;
+    border: 3px dashed #ff7f00 !important;
+    box-shadow: 0 0 15px rgba(255, 127, 0, 0.3), 0 4px 12px rgba(255, 127, 0, 0.15) !important;
+    position: relative;
+    padding: 4px !important;
+  }
+
+  .coming-soon-box::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    background: #ff7f00;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(255, 127, 0, 0.3);
+  }
+
+  .coming-soon-box:hover {
+    box-shadow: 0 0 20px rgba(255, 127, 0, 0.4), 0 6px 16px rgba(255, 127, 0, 0.25) !important;
+    transform: translateY(-3px) !important;
+  }
+
+  .coming-soon-box .paper-title {
+    color: #ff7f00 !important;
+    font-size: 1.1em !important;
+  }
+
+  .coming-soon-box .paper-title a {
+    color: #ff7f00 !important;
+  }
+
+  .coming-soon-box .authors {
+    font-style: italic;
+    color: #999;
+  }
+
+  .coming-soon-box .conf {
+    color: #ff7f00 !important;
+    font-weight: 600 !important;
+  }
+
+  .coming-soon-box .paper-box-image {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-shrink: 1 !important;
+    margin-right: 16px !important;
+    padding-top: 8px !important;
+  }
+
+  .coming-soon-box .badge {
+    margin-bottom: 0 !important;
+    margin-top: -20px !important;
+    margin-left: 8px !important;
+    background: linear-gradient(135deg, #ff6b35 0%, #ff8c00 100%) !important;
+    box-shadow: 0 0 10px rgba(255, 107, 53, 0.6), 0 0 20px rgba(255, 140, 0, 0.4) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    font-weight: 800 !important;
+    letter-spacing: 0px !important;
+  }
+
+  details {
+    margin: 24px 0;
+  }
+
+  details > summary {
+    cursor: pointer;
+    padding: 16px 20px;
+    background: linear-gradient(135deg, #003d82 0%, #004fa3 100%);
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0, 61, 130, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  details > summary:hover {
+    box-shadow: 0 4px 12px rgba(0, 61, 130, 0.3);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #004fa3 0%, #005bb3 100%);
+  }
+
+  details > summary::before {
+    content: '▶';
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 0.8em;
+  }
+
+  details[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  details > ul {
+    background: rgba(0, 61, 130, 0.02);
+    border-left: 4px solid #003d82;
+    border-radius: 0 8px 8px 0;
+    padding: 20px 20px 20px 30px;
+    margin-top: 8px;
+    list-style: none;
+  }
+
+  details > ul > li {
+    margin-bottom: 12px;
+    padding: 8px 0;
+    line-height: 1.6;
+  }
+
+  details > ul > li:last-child {
+    margin-bottom: 0;
+  }
+
+  details > ul > li a {
+    color: #003d82;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  details > ul > li a:hover {
+    color: #004fa3;
+    text-decoration: underline;
+  }
+</style>
+
+<div class="pub-section-header">📚 Preprint</div>
+
+<div class="paper-box coming-soon-box"><div class="paper-box-image"><div><div class="badge">TBD <i class="fas fa-hourglass-end fa-spin"></i></div></div></div>
+<div class="paper-box-text">
+    <p><span class="paper-title">🚀 Something is Coming Soon™ (Probably)  Status: <i class="fas fa-spinner fa-spin"></i> Thinking hard 🤔 …]</span></p>
+  </div>
+</div>
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">preprint</div><img src="images/autoinj.png" alt="sym" width="100%" /></div></div>
+<div class="paper-box-text">
+
+    <p><span class="paper-title"><a href="https://arxiv.org/abs/2602.05746">Learning to Inject: Automated Prompt Injection via Reinforcement Learning</a></span></p>
+
+    <p><span class="authors"> Xin Chen, <span class="me">Jie Zhang</span>, Florian Tramèr</span></p>
+
+    <p><a href="https://github.com/RPC2/AutoInject" class="resource-link github-link"><i class="fab fa-github"></i> code</a></p>
+
+  </div>
+</div>
 
 <div class="paper-box"><div class="paper-box-image"><div><div class="badge">preprint</div><img src="images/black.png" alt="sym" width="100%" /></div></div>
 <div class="paper-box-text">
 
     <p><span class="paper-title"><a href="https://arxiv.org/abs/2510.16794">Black-box Optimization of LLM Outputs by Asking for Directions</a></span></p>
 
-    <p><span class="authors"><span class="me">Jie Zhang</span><span class="equal">*</span>, Meng Ding, Yang Liu, Jue Hong, Florian Tramèr</span></p>
+    <p><span class="authors"><span class="me">Jie Zhang</span>, Meng Ding, Yang Liu, Jue Hong, Florian Tramèr</span></p>
 
-    <!-- <span class="conf">[IEEE SP 2025, DLSP workshop]</span> -->
     <p><a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a></p>
+
+    <p><span class="conf">[ICLR Trustworthy AI workshop 2026, <span class="award-highlight">Oral</span>]</span></p>
 
   </div>
 </div>
@@ -447,11 +846,9 @@ Preprint.
 </div>
 
 <!-- Accepted -->
-<blockquote style="font-size: 1em; color: blue; background-color: #f0f8ff; padding: 10px;">
-Accepted.
-</blockquote>
+<div class="pub-section-header">✅ Accepted</div>
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">NeruIPS 2025</div><img src="images/realmath.png" alt="sym" width="100%" /></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">NeurIPS 2025</div><img src="images/realmath.png" alt="sym" width="100%" /></div></div>
 <div class="paper-box-text">
     <p><span class="paper-title"><a href="https://arxiv.org/abs/2505.12575">RealMath: A Continuous Benchmark for Evaluating Language Models on Research-Level Mathematics</a></span></p>
 
@@ -460,7 +857,7 @@ Accepted.
 <a href="https://github.com/ethz-spylab/RealMath" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
 <a href="https://huggingface.co/datasets/ethz-spylab/RealMath" class="resource-link blog-link"><i class="fas fa-table"></i> dataset</a>
 </div>
-    <p><span class="conf">[NeruIPS 2025, Dataset $\&amp;$ Benchmark Track]</span></p>
+    <p><span class="conf">[NeurIPS 2025, Dataset $\&amp;$ Benchmark Track]</span></p>
   </div>
 </div>
 
@@ -476,7 +873,19 @@ Accepted.
 <a href="https://spylab.ai/blog/jailbreak-tax/" class="resource-link blog-link"><i class="fas fa-book"></i> blog</a>
 </div>
 
-    <p><span class="conf">[ICML 2025, spotlight]</span></p>
+    <p><span class="conf">[ICML 2025, <span class="award-highlight">Spotlight</span>]</span></p>
+
+  </div>
+</div>
+
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
+<div class="paper-box-text">
+
+    <p><span class="paper-title">Membership Inference Attacks on Sequence Models</span></p>
+
+    <p><span class="authors">Lorenzo Rossi, Michael Aerni, <span class="me">Jie Zhang</span>, Florian Tramèr</span></p>
+
+    <p><span class="conf">[IEEE SP 2025, DLSP workshop, <span class="award-highlight">Best Paper Award</span>]</span></p>
 
   </div>
 </div>
@@ -566,6 +975,22 @@ Accepted.
   </div>
 </div>
 
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">ICLR 2024</div><img src="images/iclr24.png" alt="sym" width="100%" /></div></div>
+<div class="paper-box-text">
+
+    <p><span class="paper-title"><a href="https://arxiv.org/abs/2310.10402">Real-Fake: Effective Training Data Synthesis Through Distribution Matching</a></span></p>
+
+    <p><span class="authors">Jianhao Yuan, <span class="me">Jie Zhang</span>, Shuyang Sun, Philip Torr, Bo Zhao</span></p>
+
+    <div class="paper-links">
+<a href="https://github.com/BAAI-DCAI/Training-Data-Synthesis" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+</div>
+
+    <p><span class="conf">[ICLR 2024]</span></p>
+
+  </div>
+</div>
+
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/iclr24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -632,19 +1057,48 @@ Jianhao Yuan, <b>Jie Zhang</b>, Shuyang Sun, Philip Torr, Bo Zhao<sup>#</sup>. (
 
 
 
-<details>
-<summary style="font-size: 1.2em; color: blue; background-color: #f0f8ff;"> More </summary>
-  <ul>
-    <li><span style="color: blue; background-color: lightgray; "> ECCV 2024 </span>&nbsp;<a href="https://arxiv.org/abs/2403.05016">DiffClass: Diffusion-Based Class Incremental Learning</a>, Zichong Meng, <strong>Jie Zhang</strong>, Changdi Yang, Zheng Zhan, Pu Zhao, Yanzhi Wang.  </li>
-    <li><span style="color: blue; background-color: lightgray; "> ICCV 2023 </span>&nbsp;<a href="https://arxiv.org/abs/2303.06937">TARGET: Federated Class-Continual Learning via Exemplar-Free Distillation</a>, <strong>Jie Zhang</strong>, Chen Chen, Weiming Zhuang, Lingjuan Lyu. <a href="https://github.com/zj-jayzhang/Federated-Class-Continual-Learning">code</a> </li>
-    <li><span style="color: blue; background-color: lightgray; "> ICLR 2023 </span>&nbsp;<a href="https://openreview.net/pdf?id=ConT6H7MWL">IDEAL: Query-Efficient Data-Free Learning from Black-Box Models</a>, <strong>Jie Zhang<sup>*</sup></strong>, Chen Chen<sup>*</sup>, Lingjuan Lyu. <a href="https://github.com/SonyResearch/IDEAL">code</a> </li>
-    <li><span style="color: blue; background-color: lightgray; "> AAAI 2023 </span>&nbsp;<a href="https://arxiv.org/abs/2302.09479">Delving into Adversarial Robustness of Federated Learning</a>, <b>Jie Zhang<sup>*</sup></b>, Bo Li<sup>*</sup>, Chen Chen, Lingjuan Lyu, Shuang Wu, Shouhong Ding, Chao Wu<sup>#</sup>. (<font color="red">Oral</font>)! </li>
-    <li><span style="color: blue; background-color: lightgray; "> ICCV 2023 </span>&nbsp;<a href="https://arxiv.org/abs/2307.12463">Rethinking Data Distillation: Do Not Overlook Calibration</a>, D. Zhu, B. Lei, <strong>Jie Zhang</strong>, Y. Fang, Y. Xie, R. Zhang, D. Xu. </li>
-    <li><span style="color: blue; background-color: lightgray; "> Best Student Paper Award, AAAI 2022 FL workshop </span>&nbsp;<a href="https://federated-learning.org/fl-aaai-2022/Papers/FL-AAAI-22_paper_34.pdf">GEAR: A Margin-based Federated Adversarial Training Approach</a>, Chen Chen<sup>*</sup>, <strong>Jie Zhang<sup>*</sup></strong>, Lingjuan Lyu.</li>
-  </ul>
-
-</details>
+<div style="margin-top: 40px; text-align: center;">
+  <a href="/more/" style="display: inline-block; padding: 14px 28px; background: linear-gradient(135deg, #003d82 0%, #004fa3 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 700; font-size: 1.1em; box-shadow: 0 2px 8px rgba(0, 61, 130, 0.2); transition: all 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 12px rgba(0, 61, 130, 0.3)'; this.style.transform='translateY(-2px)';" onmouseout="this.style.boxShadow='0 2px 8px rgba(0, 61, 130, 0.2)'; this.style.transform='translateY(0)';">
+    📍 More: Talks, Honors & Awards, and More
+  </a>
+</div>
 -->
+
+<h1 id="-education">📖 Education</h1>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 10px 0; margin-bottom: 15px;">
+
+  <div style="background: linear-gradient(135deg, #5B9BD5 0%, #70AD47 100%); border-radius: 8px; padding: 14px 12px; color: white; box-shadow: 0 3px 8px rgba(91, 155, 213, 0.15); transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.1);">
+    <div style="font-size: 22px; font-weight: 700; margin-bottom: 5px;">🎓 PhD</div>
+    <div style="font-size: 13px; font-weight: 600; margin-bottom: 5px;">Computer Science</div>
+    <div style="font-size: 13px; opacity: 0.95; margin-bottom: 2px;"><a href="https://inf.ethz.ch/" style="color: #ffffff; text-decoration: underline;">ETH Zurich</a></div>
+    <div style="font-size: 11px; opacity: 0.85; margin-bottom: 7px;">🇨🇭 Switzerland</div>
+    <div style="height: 0.5px; background: rgba(255,255,255,0.15); margin-bottom: 7px;"></div>
+    <div style="font-size: 11px; opacity: 0.8; margin-bottom: 2px;"><span style="color: #FFD700;">Ongoing</span></div>
+    <div style="font-size: 10px; opacity: 0.8; line-height: 1.2;">Advisor: <a href="https://floriantramer.com/" style="color: #ffffff; text-decoration: underline;">Prof. Florian Tramèr</a></div>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #9DC3E6 0%, #B4C7E7 100%); border-radius: 8px; padding: 14px 12px; color: #333; box-shadow: 0 3px 8px rgba(157, 195, 230, 0.2); transition: all 0.3s ease; border: 1px solid rgba(100,100,100,0.1);">
+    <div style="font-size: 22px; font-weight: 700; margin-bottom: 5px;">🎯 MSc</div>
+    <div style="font-size: 13px; font-weight: 600; margin-bottom: 5px;">Software Engineering</div>
+    <div style="font-size: 13px; opacity: 0.95; margin-bottom: 2px;"><a href="http://www.cst.zju.edu.cn/cstenglish/main.htm" style="color: #1F497D; text-decoration: underline;">Zhejiang University</a></div>
+    <div style="font-size: 11px; opacity: 0.85; margin-bottom: 7px;">🇨🇳 China</div>
+    <div style="height: 0.5px; background: rgba(50,50,50,0.15); margin-bottom: 7px;"></div>
+    <div style="font-size: 11px; opacity: 0.8; margin-bottom: 2px;"><span style="color: #C5504D;">Mar 2023</span></div>
+    <div style="font-size: 10px; opacity: 0.8; line-height: 1.2;">Advisor: <a href="https://scholar.google.com.hk/citations?user=gpTPt58AAAAJ&amp;hl=zh-CN" style="color: #1F497D; text-decoration: underline;">Prof. Chao Wu</a></div>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #F8CBAD 0%, #F4B183 100%); border-radius: 8px; padding: 14px 12px; color: #333; box-shadow: 0 3px 8px rgba(248, 203, 173, 0.2); transition: all 0.3s ease; border: 1px solid rgba(100,100,100,0.1);">
+    <div style="font-size: 22px; font-weight: 700; margin-bottom: 5px;">🏆 BSc</div>
+    <div style="font-size: 13px; font-weight: 600; margin-bottom: 5px;">Internet of Things</div>
+    <div style="font-size: 13px; opacity: 0.95; margin-bottom: 2px;"><a href="https://en.hainanu.edu.cn/" style="color: #333; text-decoration: underline;">Hainan University</a></div>
+    <div style="font-size: 11px; opacity: 0.85; margin-bottom: 7px;">🇨🇳 China</div>
+    <div style="height: 0.5px; background: rgba(50,50,50,0.15); margin-bottom: 7px;"></div>
+    <div style="font-size: 11px; opacity: 0.8; margin-bottom: 2px;"><span style="color: #C5504D;">Jul 2020</span></div>
+    <div style="font-size: 10px; opacity: 0.8;">Bachelor's Degree</div>
+  </div>
+
+</div>
 
 <h1 id="-talks">🎤 Talks</h1>
 
@@ -701,12 +1155,6 @@ Jianhao Yuan, <b>Jie Zhang</b>, Shuyang Sun, Philip Torr, Bo Zhao<sup>#</sup>. (
   <li>Outstanding Student Scholarship, First Prize, Hainan University, 2018, 2019, 2020.</li>
 </ul>
 
-<h1 id="-educations">📖 Educations</h1>
-<ul>
-  <li><sup>🎓</sup>  <em>2020.09 - 2023.03</em>, Master, Zhejiang University, China.</li>
-  <li><sup>🎓</sup>  <em>2016.09 - 2020.06</em>, Undergraduate, Hainan University, China.</li>
-</ul>
-
 <h1 id="-services">💬 Services</h1>
 <ul>
   <li>Journal Reviewer:
@@ -732,7 +1180,7 @@ Jianhao Yuan, <b>Jie Zhang</b>, Shuyang Sun, Philip Torr, Bo Zhao<sup>#</sup>. (
 <p>I enjoy the time traveling with my families and friends. I am always excited about visiting new places and knowing different cultures.</p>
 
 <h3 id="my-cat">My cat</h3>
-<p>My girlfriend and I have three cats together, they are very adorable and have brought a lot of fun to our lives!</p>
+<p>My wife and I have three cats together, they are very adorable and have brought a lot of fun to our lives!</p>
 
 <p><img src="../../images/cat1.jpeg" width="300" alt="图片名称" align="center" />  <img src="../../images/cat4.jpeg" width="300" alt="图片名称" align="center" /> <img src="../../images/cat2.jpeg" width="300" alt="图片名称" align="center" /></p>
 
@@ -740,7 +1188,7 @@ Jianhao Yuan, <b>Jie Zhang</b>, Shuyang Sun, Philip Torr, Bo Zhao<sup>#</sup>. (
   <hr />
   
   
-<p>Last updated: April 1st, 2025. Template <a href="https://github.com/academicpages/academicpages.github.io">   webpage.</a></p>
+<p>Last updated: Feb 3, 2026. Template <a href="https://github.com/academicpages/academicpages.github.io">   webpage.</a></p>
 
 </footer>
 

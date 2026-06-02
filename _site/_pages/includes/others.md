@@ -1,7 +1,4 @@
 
-# 📖 Educations
-- <sup>&#x1F393;</sup>  *2020.09 - 2023.03*, Master, Zhejiang University, China.
-- <sup>&#x1F393;</sup>  *2016.09 - 2020.06*, Undergraduate, Hainan University, China.
 
 
 # 💬 Services
@@ -25,7 +22,7 @@ I enjoy the time traveling with my families and friends. I am always excited abo
 
 
 ### My cat
-My girlfriend and I have three cats together, they are very adorable and have brought a lot of fun to our lives!
+My wife and I have three cats together, they are very adorable and have brought a lot of fun to our lives!
 
 <img src="../../images/cat1.jpeg" width = "300" alt="图片名称" align=center />  <img src="../../images/cat4.jpeg" width = "300" alt="图片名称" align=center /> <img src="../../images/cat2.jpeg" width = "300" alt="图片名称" align=center /> 
 
