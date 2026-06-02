@@ -33,3 +33,7 @@ Hi there! I am a 3-year PhD student in [Computer Science at the ETH Zurich](http
   </div>
 </div>
 
+<h3 style="color: red;"><strong>Supervising Students</strong></h3>
+<div style="background-color: #f0f4f8; border-radius: 12px; padding: 15px; margin: 15px 0; color: #333; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);">
+Each semester, I am happy to supervise <strong>1–2 Master students</strong> at ETH Zurich on <strong>semester projects</strong> or <strong>Master theses</strong>. If you are interested in working with me, please get in touch via email: <a href="mailto:jie.zhang@inf.ethz.ch">jie.zhang@inf.ethz.ch</a>.
+</div>

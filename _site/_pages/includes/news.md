@@ -74,10 +74,9 @@
 
 <div class="news-scrollable">
   <div class="news-item">
-    <span class="news-date">2026.04</span>
-    <span class="news-content">🎉 Our position paper <a href="https://arxiv.org/abs/2502.02260">Adversarial ML for LLMs Is Not Making Any Progress </a> is accepted by ICML 2026</span>
+    <span class="news-date">2026.05</span>
+    <span class="news-content">🎉 Our position paper <a href="https://arxiv.org/abs/2502.02260">Adversarial ML for LLMs Is Not Making Any Progress</a> is accepted by ICML 2026</span>
   </div>
-
   <div class="news-item">
     <span class="news-date">2025.09</span>
     <span class="news-content">🎉 <a href="https://arxiv.org/abs/2505.12575">RealMath</a> is accepted by NeurIPS 2025</span>

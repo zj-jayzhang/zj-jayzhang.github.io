@@ -323,6 +323,7 @@
 
 <span class="authors"><span class="me">Jie Zhang</span>, Pura Peetathawatchai, Florian Tramèr, Avital Shafran</span>
 
+<span class="conf">[ICML 2026 workshop , Agents in the Wild]</span>
 <!-- <a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a> -->
 
 <!-- <span class="conf">[ICLR Trustworthy AI workshop 2026, <span class="award-highlight">Spotlight Talk</span>]</span> -->
@@ -342,6 +343,7 @@
 
 <a href="https://github.com/RPC2/AutoInject" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
 
+<span class="conf">[ICML 2026 workshop , Agents in the Wild]</span>
 </div>
 </div>
 
@@ -374,11 +376,11 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span class="paper-title">[Position: Adversarial ML Problems Are Getting Harder to Solve and to Evaluate](https://arxiv.org/abs/2502.02260)</span>
+<span class="paper-title">[Position: Adversarial ML for LLMs Is Not Making Any Progress ](https://arxiv.org/abs/2502.02260)</span>
 
 <span class="authors">Javier Rando<span class="equal">*</span>, <span class="me">Jie Zhang</span><span class="equal">*</span>, Nicholas Carlini, Florian Tramèr</span>
 
-<span class="conf">[ICML 2026, IEEE SP 2025, DLSP workshop]</span>
+<span class="conf">[ICML 2026]</span>
 
 </div>
 </div>
@@ -419,7 +421,7 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE SP 2025, DLSP workshop</div></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span class="paper-title">Membership Inference Attacks on Sequence Models</span>
+<span class="paper-title">[Membership Inference Attacks on Sequence Models](https://arxiv.org/abs/2506.05126)</span>
 
 <span class="authors">Lorenzo Rossi, Michael Aerni, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
 
