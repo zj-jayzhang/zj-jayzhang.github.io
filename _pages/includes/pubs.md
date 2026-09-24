@@ -334,20 +334,6 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/autoinj.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class="paper-title">[Learning to Inject: Automated Prompt Injection via Reinforcement Learning](https://arxiv.org/abs/2602.05746)</span>
-
-<span class="authors"> Xin Chen, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
-
-<a href="https://github.com/RPC2/AutoInject" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
-
-<span class="conf">[ICML 2026 workshop , Agents in the Wild]</span>
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/black.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -371,6 +357,19 @@
 
 <!-- Accepted -->
 <div class="pub-section-header">✅ Accepted</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/autoinj.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Learning to Inject: Automated Prompt Injection via Reinforcement Learning](https://arxiv.org/abs/2602.05746)</span>
+
+<span class="authors"> Xin Chen, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<a href="https://github.com/RPC2/AutoInject" class="resource-link github-link"><i class="fab fa-github"></i> code</a>
+
+<span class="conf">[NeurIPS 2026]</span>
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div></div></div>
