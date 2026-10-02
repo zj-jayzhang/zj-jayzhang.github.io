@@ -316,6 +316,21 @@
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/pictionary.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Render Before Reading: Visual Rendering as a Prompt Injection Defense](https://arxiv.org/abs/2609.36121)</span>
+
+<span class="authors"><span class="me">Jie Zhang</span>, Andrei Baroian, Jan N. van Rijn, Avital Shafran, Andrei Baroian, Jan N. van Rijn, Florian Tramèr</span>
+
+<!-- <span class="conf">[ICML 2026 workshop , Agents in the Wild]</span> -->
+</div>
+</div>
+
+
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/adv_vlm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -324,10 +339,6 @@
 <span class="authors"><span class="me">Jie Zhang</span>, Pura Peetathawatchai, Florian Tramèr, Avital Shafran</span>
 
 <span class="conf">[ICML 2026 workshop , Agents in the Wild]</span>
-<!-- <a href="https://github.com/zj-jayzhang/black_box_llm_optimization" class="resource-link github-link"><i class="fab fa-github"></i> code</a> -->
-
-<!-- <span class="conf">[ICLR Trustworthy AI workshop 2026, <span class="award-highlight">Spotlight Talk</span>]</span> -->
-
 </div>
 </div>
 
@@ -357,6 +368,21 @@
 
 <!-- Accepted -->
 <div class="pub-section-header">✅ Accepted</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISec 2026</div><img src='images/oneround' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="paper-title">[Calibrating One-Round Membership Inference with Neighbors](https://arxiv.org/abs/2609.36331)</span>
+
+<span class="authors"> Francesco Rita, <span class="me">Jie Zhang</span>, Florian Tramèr</span>
+
+<a href="https://github.com/ethz-spylab/one_round_MI" class="resource-link github-link"><i class="fab fa-github"></i> code</a> 
+
+<span class="conf">[CCS, AISec workshop 2026]</span>
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/autoinj.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
