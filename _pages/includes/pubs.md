@@ -322,7 +322,7 @@
 <span class="paper-title">[Render Before Reading: Visual Rendering as a Prompt Injection Defense](https://arxiv.org/abs/2609.36121)</span>
 
 <span class="authors"><span class="me">Jie Zhang</span>, Andrei Baroian, Jan N. van Rijn, Avital Shafran, Andrei Baroian, Jan N. van Rijn, Florian Tramèr</span>
-
+<a href="https://github.com/zj-jayzhang/Pictionary" class="resource-link github-link"><i class="fab fa-github"></i> code</a> 
 <!-- <span class="conf">[ICML 2026 workshop , Agents in the Wild]</span> -->
 </div>
 </div>
@@ -369,7 +369,7 @@
 <!-- Accepted -->
 <div class="pub-section-header">✅ Accepted</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISec 2026</div><img src='images/oneround' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISec 2026</div><img src='images/oneround.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class="paper-title">[Calibrating One-Round Membership Inference with Neighbors](https://arxiv.org/abs/2609.36331)</span>
