@@ -321,7 +321,7 @@
 
 <span class="paper-title">[Render Before Reading: Visual Rendering as a Prompt Injection Defense](https://arxiv.org/abs/2609.36121)</span>
 
-<span class="me">Jie Zhang<span class="equal">*</span>, Andrei Baroian<span class="equal">*</span>, Jan N. van Rijn, Avital Shafran, Andrei Baroian, Jan N. van Rijn, Florian Tramèr</span>
+<span class="authors"><span class="me">Jie Zhang<span class="equal">*</span></span>, Andrei Baroian<span class="equal">*</span>, Jan N. van Rijn, Avital Shafran, Florian Tramèr</span>
 
 <a href="https://github.com/zj-jayzhang/Pictionary" class="resource-link github-link"><i class="fab fa-github"></i> code</a> 
 
