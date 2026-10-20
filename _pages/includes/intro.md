@@ -1,6 +1,6 @@
 # 🧐 About Me
 
-Hi there! I am a 3-year PhD student in [Computer Science at the ETH Zurich](https://inf.ethz.ch/), under the supervision of Prof. [Florian Tramèr](https://floriantramer.com/), and a member of the [Secure and Private AI (SPY) Lab](https://spylab.ai/).
+Hi there! I am a 4-year PhD student in [Computer Science at the ETH Zurich](https://inf.ethz.ch/), under the supervision of Prof. [Florian Tramèr](https://floriantramer.com/), and a member of the [Secure and Private AI (SPY) Lab](https://spylab.ai/).
 
 ### **Research Interests**
 <div style="background-color: #f0f4f8; border-radius: 12px; padding: 20px; margin: 20px 0; color: #333; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);">
