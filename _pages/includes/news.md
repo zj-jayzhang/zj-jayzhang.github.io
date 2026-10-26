@@ -73,6 +73,10 @@
 </style>
 
 <div class="news-scrollable">
+    <div class="news-item">
+    <span class="news-date">2026.09</span>
+    <span class="news-content">🎉 <a href="https://arxiv.org/abs/2602.05746">Learning to Inject: Automated Prompt Injection via Reinforcement Learning</a> is accepted by NeurIPS 2026</span>
+  </div>
   <div class="news-item">
     <span class="news-date">2026.05</span>
     <span class="news-content">🎉 Our position paper <a href="https://arxiv.org/abs/2502.02260">Adversarial ML for LLMs Is Not Making Any Progress</a> is accepted by ICML 2026</span>
