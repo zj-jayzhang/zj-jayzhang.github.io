@@ -78,6 +78,12 @@
       <span class="talk-title">"Membership Inference Attacks Cannot Prove that a Model Was Trained On Your Data"</span>
       <a href="https://arxiv.org/abs/2409.19798">[paper]</a>
     </li>
+    <li>
+      <span class="talk-venue">Berkeley Security Seminar</span>
+      <span class="talk-date">(2026.10)</span><br>
+      <span class="talk-title">"Render Before Reading: Visual Rendering as a Prompt Injection Defense"</span>
+      <a href="https://arxiv.org/pdf/2609.36121">[paper]</a>
+    </li>
     
   </ul>
 </div>
